@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="intro">L'objectif de ce site est de permette une lecture parallèle des évangiles afin de percevoir simultanément les différences et similitudes des textes des quatres évangélistes.
+    </div>
+    <div class="intro">Par défaut, la traduction est en Crampon. Il est possible de sélectionner le Segond 21 pour l'ensemble des textes via le bouton dans le coin inférieur droit. Il est aussi possible de changer la traduction uniquement pour le passe voulu en appuyant sur la traduction grisâtre de chaque passage.</div>
+    <div class="intro">Le bouton chronologique sur la droite permet de trouver rapidement un extrait en particulier des évangiles.</div>
+
+    <div class="menu">
+        <button id="traduction"><img src="https://img.icons8.com/android/24/000000/holy-bible.png" style="width:20px;height:20px;align-items:left;"/></button>
+        <button id="chronologie"><img src="https://img.icons8.com/metro/26/000000/timeline.png" style="width:20px;height:20px;"/></button>
+      </div>
+
+      <div id="menuChronologie">
+        <div class="lien"><a href="index.html#prologue">Prologue</a></div>
+        <div class="lien"><a href="index.html#genealogie">Généalogie de Jésus</a></div>
+        <div class="lien"><a href="index.html#zacharie">Annonce à Zacharie</a></div>
+        <div class="lien"><a href="index.html#annonciation">Annonciation</a></div>
+        <div class="lien"><a href="index.html#elisabeth">Marie visite Elisabeth</a></div>
+        <div class="lien"><a href="index.html#naissanceJB">Naissance de Jean Baptiste</a></div>
+        <div class="lien"><a href="index.html#joseph">L'Ange parle à Joseph</a></div>
+        <div class="lien"><a href="index.html#nativite">Naissance de Jésus</a></div>
+        <div class="lien"><a href="index.html#adoration">Adoration</a></div>
+        <div class="lien"><a href="index.html#presentation">Présentation de Jésus au Temple</a></div>
+        <div class="lien"><a href="index.html#egypte">Fuite en Egypte</a></div>
+        <div class="lien"><a href="index.html#massacre">Massacre des innoncents</a></div>
+        <div class="lien"><a href="index.html#nazareth">Retour d'Egypte et départ pour Nazareth</a></div>
+        <div class="lien"><a href="index.html#temple">Jésus perdu et retrouvé au Temple</a></div>
+        <div class="lien"><a href="index.html#jeanBaptiste">Jean Baptiste</a></div>
+        <div class="lien"><a href="index.html#bapteme">Baptême de Jésus</a></div>
+        <div class="lien"><a href="index.html#tentation">Jésus tenté dans le désert</a></div>
+        <div class="lien"><a href="index.html#galilee">Débuts en Galilée</a></div>
+        <div class="lien"><a href="index.html#premiersDisciples">Premiers disciples</a></div>
+      </div>
+
+
+    <div class="titre" id="prologue">Prologue</div>
+    <div class="container">
+        <div id="Mc">
+            <p class="titreEv">Evangile selon Marc</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Mc" chapter="1" trad="crampon" class="box"><span class="verset">1</span>Commencement de l’Évangile de Jésus-Christ, Fils de Dieu.</div>
+            <div ev="Mc" chapter="1" trad="S21" class="box"><span class="verset">1</span>Voici le commencement de l'Evangile de Jésus-Christ, Fils de Dieu, </div>
+        </div>
+        <div id="Lc">
+            <p class="titreEv">Evangile selon Luc</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">1</span>Après que plusieurs ont entrepris de composer une relation des choses dont on a parmi nous pleine conviction,</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">2</span>conformément à ce que nous ont transmis ceux qui ont été dès le commencement, témoins oculaires et ministres de la parole ;</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">3</span>j’ai résolu moi aussi, après m’être appliqué à connaître exactement toutes choses depuis l’origine, de t’en écrire le récit suivi, excellent Théophile,</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">4</span>afin que tu reconnaisses la certitude des enseignements que tu as reçus.</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">1</span>Plusieurs ont entrepris de composer un récit des événements qui se sont accomplis parmi nous, </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">2</span>d’après ce que nous ont transmis ceux qui ont été des témoins oculaires dès le commencement et qui sont devenus des serviteurs de la parole. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">3</span>Il m'a donc paru bon à moi aussi, qui me suis soigneusement informé sur toutes ces choses dès l'origine, de te les exposer par écrit d'une manière suivie, excellent Théophile, </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">4</span>afin que tu reconnaisses la certitude des enseignements que tu as reçus.</div>
+        </div>
+        <div id="Jn">
+            <p class="titreEv">Evangile selon Jean</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">1</span>Au commencement était le Verbe, et le Verbe était en Dieu, et le Verbe était Dieu.</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">2</span>Il était au commencement en Dieu.</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">3</span>Tout par lui a été fait, et sans lui n’a été fait rien de ce qui existe.</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">4</span>En lui était la vie, et la vie était la lumière des hommes,</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">5</span>Et la lumière luit dans les ténèbres, et les ténèbres ne l’ont point reçue.</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">6</span>Il y eut un homme, envoyé de Dieu ; son nom était Jean.</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">7</span>Celui-ci vint en témoignage, pour rendre témoignage à la lumière, afin que tous crussent par lui :</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">8</span>non que celui-ci fût la lumière, mais il avait à rendre témoignage à la lumière.</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">9</span>La lumière, la vraie, celle qui éclaire tout homme, venait dans le monde.</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">10</span>Il (le Verbe) était dans le monde, et le monde par lui a été fait, et le monde ne l’a pas connu.</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">11</span>Il vint chez lui, et les siens ne l’ont pas reçu.</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">12</span>Mais quant à tous ceux qui l’ont reçu, Il leur a donné le pouvoir de devenir enfants de Dieu, à ceux qui croient en son nom,</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">13</span>Qui non du sang, ni de la volonté de la chair, ni de la volonté de l’homme, mais de Dieu sont nés.</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">14</span>Et le Verbe s’est fait chair, et il a habité parmi nous, (et nous avons vu sa gloire, gloire comme celle qu’un fils unique tient de son Père) tout plein de grâce et de vérité.</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">15</span>Jean lui rend témoignage, et s’écrie en ces termes : " Voici celui dont je disais : Celui qui vient après moi, est passé devant moi, parce qu’il était avant moi. "</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">16</span>Et c’est de sa plénitude, que nous avons tous reçu, et grâce sur grâce ;</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">17</span>parce que la loi a été donnée par Moïse, la grâce et la vérité sont venues par Jésus-Christ.</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">18</span>Dieu, personne ne le vit jamais : le Fils unique, qui est dans le sein du Père, c’est lui qui l’a fait connaître.</div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">1</span>Au commencement, la Parole existait déjà. La Parole était avec Dieu et la Parole était Dieu. </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">2</span>Elle était au commencement avec Dieu. </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">3</span>Tout a été fait par elle et rien de ce qui a été fait n'a été fait sans elle. </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">4</span>En elle il y avait la vie, et cette vie était la lumière des êtres humains. </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">5</span>La lumière brille dans les ténèbres, et les ténèbres ne l'ont pas accueillie.</div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">6</span>Il y eut un homme envoyé par Dieu; son nom était Jean. </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">7</span>Il vint comme témoin, pour rendre témoignage à la lumière afin que tous croient par lui. </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">8</span>Il n'était pas la lumière, mais il vint pour rendre témoignage à la lumière. </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">9</span>Cette lumière était la vraie lumière qui, en venant dans le monde, éclaire tout être humain. </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">10</span>Elle était dans le monde et le monde a été fait par elle, pourtant le monde ne l'a pas reconnue. </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">11</span>Elle est venue chez les siens, et les siens ne l'ont pas accueillie. </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">12</span>Mais à tous ceux qui l'ont acceptée, à ceux qui croient en son nom, elle a donné le droit de devenir enfants de Dieu, </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">13</span>puisqu’ils sont nés non du fait de la nature, ni par une volonté humaine, ni par la volonté d’un mari, mais qu’ils sont nés de Dieu.</div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">14</span>Et la Parole s'est faite homme, elle a habité parmi nous, pleine de grâce et de vérité, et nous avons contemplé sa gloire, une gloire comme celle du Fils unique venu du Père.</div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">15</span>Jean lui a rendu témoignage et s'est écrié: «C'est celui à propos duquel j'ai dit: ‘Celui qui vient après moi m'a précédé, car il était avant moi.’» </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">16</span>Nous avons tous reçu de sa plénitude, et grâce sur grâce. </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">17</span>En effet, la loi a été donnée à travers Moïse, mais la grâce et la vérité sont venues à travers Jésus-Christ. </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">18</span>Personne n'a jamais vu Dieu; Dieu le Fils unique, qui est dans l’intimité du Père, est celui qui l'a fait connaître.</div>            
+        </div>
+    </div>
+    <div class="titre" id="genealogie">Généalogie de Jésus</div>
+    <div class="container">
+        <div id="Mt">
+            <p class="titreEv">Evangile selon Matthieu</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Mt" chapter="1" trad="crampon" class="box"><span class="verset">1</span>Généalogie de Jésus-Christ, fils de David, fils d’Abraham.</div>
+            <div ev="Mt" chapter="1" trad="crampon" class="box"><span class="verset">2</span>Abraham engendra Isaac ; Isaac engendra Jacob ; Jacob engendra Juda et ses frères ;</div>
+            <div ev="Mt" chapter="1" trad="crampon" class="box"><span class="verset">3</span>Juda, de Thamar, engendra Pharès et Zara ; Pharès engendra Esron ; Esron engendra Aram ;</div>
+            <div ev="Mt" chapter="1" trad="crampon" class="box"><span class="verset">4</span>Aram engendra Aminadab ; Aminadab engendra Naasson ; Naasson engendra Salmon ;</div>
+            <div ev="Mt" chapter="1" trad="crampon" class="box"><span class="verset">5</span>Salmon, de Rahab, engendra Booz ; Booz, de Ruth, engendra Obed ; Obed engendra Jessé ; Jessé engendra le roi David.</div>
+            <div ev="Mt" chapter="1" trad="crampon" class="box"><span class="verset">6</span>David engendra Salomon, de celle qui fut la femme d’Urie ;</div>
+            <div ev="Mt" chapter="1" trad="crampon" class="box"><span class="verset">7</span>Salomon engendra Roboam ; Roboam engendra Abias ; Abias engendra Asa ;</div>
+            <div ev="Mt" chapter="1" trad="crampon" class="box"><span class="verset">8</span>Asa engendra Josaphat ; Josaphat engendra Joram ; Joram engendra Ozias ;</div>
+            <div ev="Mt" chapter="1" trad="crampon" class="box"><span class="verset">9</span>Ozias engendra Joathan ; Joathan engendra Achaz ; Achaz engendra Ezéchias ;</div>
+            <div ev="Mt" chapter="1" trad="crampon" class="box"><span class="verset">10</span>Ezéchias engendra Manassé ; Manassé engendra Amon ; Amon engendra Josias ;</div>
+            <div ev="Mt" chapter="1" trad="crampon" class="box"><span class="verset">11</span>Josias engendra Jéchonias et ses frères, au temps de la déportation à Babylone.</div>
+            <div ev="Mt" chapter="1" trad="crampon" class="box"><span class="verset">12</span>Et après la déportation à Babylone, Jéchonias engendra Salathiel ; Salathiel engendra Zorobabel ;</div>
+            <div ev="Mt" chapter="1" trad="crampon" class="box"><span class="verset">13</span>Zorobabel engendra Abiud ; Abiud engendra Éliacim ; Éliacim engendra Azor ;</div>
+            <div ev="Mt" chapter="1" trad="crampon" class="box"><span class="verset">14</span>Azor engendra Sadoc ; Sadoc engendra Achim ; Achim engendra Éliud ;</div>
+            <div ev="Mt" chapter="1" trad="crampon" class="box"><span class="verset">15</span>Éliud engendra Eléazar ; Eléazar engendra Mathan ; Mathan engendra Jacob ;</div>
+            <div ev="Mt" chapter="1" trad="crampon" class="box"><span class="verset">16</span>Et Jacob engendra Joseph, l’époux de Marie, de laquelle est né Jésus, qu’on appelle Christ.</div>
+            <div ev="Mt" chapter="1" trad="crampon" class="box"><span class="verset">17</span>Il y a donc en tout quatorze générations depuis Abraham jusqu’à David, quatorze générations depuis David jusqu’à la déportation à Babylone, quatorze générations depuis la déportation à Babylone jusqu’au Christ.</div>
+            <div ev="Mt" chapter="1" trad="S21" class="box"><span class="verset">1</span>Voici la généalogie de Jésus-Christ, fils de David, fils d'Abraham. </div>
+            <div ev="Mt" chapter="1" trad="S21" class="box"><span class="verset">2</span>Abraham eut pour fils Isaac; Isaac eut Jacob; Jacob eut Juda et ses frères; </div>
+            <div ev="Mt" chapter="1" trad="S21" class="box"><span class="verset">3</span>Juda eut Pérets et Zérach de Tamar; Pérets eut Hetsrom; Hetsrom eut Aram; </div>
+            <div ev="Mt" chapter="1" trad="S21" class="box"><span class="verset">4</span>Aram eut pour fils Aminadab; Aminadab eut Nachshon; Nachshon eut Salmon; </div>
+            <div ev="Mt" chapter="1" trad="S21" class="box"><span class="verset">5</span>Salmon eut Boaz de Rahab; Boaz eut Obed de Ruth; </div>
+            <div ev="Mt" chapter="1" trad="S21" class="box"><span class="verset">6</span>Obed eut pour fils Isaï; Isaï eut David. Le roi David eut Salomon de la femme d'Urie; </div>
+            <div ev="Mt" chapter="1" trad="S21" class="box"><span class="verset">7</span>Salomon eut pour fils Roboam; Roboam eut Abija; Abija eut Asa; </div>
+            <div ev="Mt" chapter="1" trad="S21" class="box"><span class="verset">8</span>Asa eut pour fils Josaphat; Josaphat eut Joram; Joram eut Ozias; </div>
+            <div ev="Mt" chapter="1" trad="S21" class="box"><span class="verset">9</span>Ozias eut pour fils Jotham; Jotham eut Achaz; Achaz eut Ezéchias; </div>
+            <div ev="Mt" chapter="1" trad="S21" class="box"><span class="verset">10</span>Ezéchias eut pour fils Manassé; Manassé eut Amon; Amon eut Josias; </div>
+            <div ev="Mt" chapter="1" trad="S21" class="box"><span class="verset">11</span>Josias eut pour descendants Jéconias et ses frères, à l’époque de la déportation à Babylone.</div>
+            <div ev="Mt" chapter="1" trad="S21" class="box"><span class="verset">12</span>Après la déportation à Babylone, Jéconias eut pour fils Shealthiel; Shealthiel eut Zorobabel; </div>
+            <div ev="Mt" chapter="1" trad="S21" class="box"><span class="verset">13</span>Zorobabel eut pour fils Abiud; Abiud eut Eliakim; Eliakim eut Azor; </div>
+            <div ev="Mt" chapter="1" trad="S21" class="box"><span class="verset">14</span>Azor eut pour fils Sadok; Sadok eut Achim; Achim eut Eliud; </div>
+            <div ev="Mt" chapter="1" trad="S21" class="box"><span class="verset">15</span>Eliud eut pour fils Eléazar; Eléazar eut Matthan; Matthan eut Jacob; </div>
+            <div ev="Mt" chapter="1" trad="S21" class="box"><span class="verset">16</span>Jacob eut pour fils Joseph, l'époux de Marie, de laquelle est né Jésus, qu’on appelle le Christ.</div>
+            <div ev="Mt" chapter="1" trad="S21" class="box"><span class="verset">17</span>Il y a donc en tout </div>
+            <div ev="Mt" chapter="1" trad="S21" class="box"><span class="verset">14</span>générations depuis Abraham jusqu'à David, 14 générations depuis David jusqu'à la déportation à Babylone et 14 générations depuis la déportation à Babylone jusqu'au Christ.</div>
+
+        </div>
+        <div id="Lc">
+            <p class="titreEv">Evangile selon Luc</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">23</span>Jésus avait environ trente ans lorsqu’il commença son ministère ; il était, comme on le croyait, fils de Joseph, fils d’Héli,</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">24</span>fils de Matthat, fils de Lévi, fils de Melchi, fils de Janné, fils de Joseph,</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">25</span>fils de Mattathias, fils d’Amos, fils de Nahum, fils d’Hesli, fils de Naggé,</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">26</span>fils de Maath, fils de Mattathias, fils de Séméï, fils de Josech, fils de Juda,</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">27</span>fils de Joanan, fils de Résa, fils de Zorobabel, fils de Salathiel, fils de Néri,</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">28</span>fils de Melchi, fils d’Addi, fils de Cosam, fils d’Elmadam, fils de Her,</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">29</span>fils de Jésus, fils d’Eliézer, fils de Jorim, fils de Matthat, fils de Lévi,</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">30</span>fils de Siméon, fils de Juda, fils de Joseph, fils de Jonan, fils d’Eliakim,</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">31</span>fils de Méléa, fils de Menna, fils de Mattatha, fils de Nathan, fils de David,</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">32</span>fils de Jessé, fils d’Obed, fils de Booz, fils de Salmon, fils de Naasson,</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">33</span>fils d’Aminadab, fils d’Aram, fils d’Esron, fils de Pharès, fils de Judas,</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">34</span>fils de Jacob, fils d’Isaac, fils d’Abraham, fils de Tharé, fils de Nachor,</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">35</span>fils de Sarug, fils de Réü, fils de Phaleg, fils d’Héber, fils de Salé,</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">36</span>fils de Caïnan, fils d’Arphaxad, fils de Sem, fils de Noé, fils de Lamech,</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">37</span>fils de Mathusalé, fils d’Enoch, fils de Jared, fils de Malaléel, fils de Caïnan,</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">38</span>fils d’Enos, fils de Seth, fils d’Adam, fils de Dieu.</div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">23</span>Jésus avait environ 30 ans lorsqu'il commença son ministère. Il était, comme on le croyait, fils de Joseph, fils d'Héli, </div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">24</span>fils de Matthat, fils de Lévi, fils de Melchi, fils de Jannaï, fils de Joseph, </div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">25</span>fils de Mattathias, fils d'Amos, fils de Nahum, fils d'Esli, fils de Naggaï, </div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">26</span>fils de Maath, fils de Mattathias, fils de Sémeï, fils de Josech, fils de Joda, </div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">27</span>fils de Joanan, fils de Rhésa, fils de Zorobabel, fils de Shealthiel, fils de Néri, </div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">28</span>fils de Melchi, fils d'Addi, fils de Kosam, fils d'Elmadam, fils d'Er, </div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">29</span>fils de Joses, fils d'Eliézer, fils de Jorim, fils de Matthat, fils de Lévi, </div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">30</span>fils de Siméon, fils de Juda, fils de Joseph, fils de Jonam, fils d'Eliakim, </div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">31</span>fils de Méléa, fils de Menna, fils de Mattatha, fils de Nathan, fils de David, </div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">32</span>fils d'Isaï, fils d’Obed, fils de Booz, fils de Salmon, fils de Nachshon, </div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">33</span>fils d'Aminadab, fils d'Admin, fils d'Arni, fils d'Hetsrom, fils de Pérets, fils de Juda, </div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">34</span>fils de Jacob, fils d'Isaac, fils d'Abraham, fils de Thara, fils de Nachor, </div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">35</span>fils de Seruch, fils de Ragau, fils de Phalek, fils d'Eber, fils de Sala, </div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">36</span>fils de Kaïnam, fils d'Arpacshad, fils de Sem, fils de Noé, fils de Lamech, </div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">37</span>fils de Mathusala, fils d'Hénoc, fils de Jared, fils de Maléléel, fils de Kaïnan, </div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">38</span>fils d'Enos, fils de Seth, fils d'Adam, fils de Dieu.  </div>
+        </div>
+    </div>
+    <div class="titre" id="zacharie">Annonce à Zacharie</div>
+    <div class="container">
+        <div id="Lc">
+            <p class="titreEv">Evangile selon Luc</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">5</span>Aux jours d’Hérode, roi de Judée, il y avait un prêtre, nommé Zacharie, de la classe d’Abia ; et sa femme, qui était une des filles d’Aaron, s’appelait Elisabeth.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">6</span>Tous deux étaient justes devant Dieu, marchant dans tous les commandements et ordonnances du Seigneur, d’une manière irréprochable.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">7</span>Ils n’avaient point d’enfants, parce qu’Elisabeth était stérile, et ils étaient l’un et l’autre avancés en âge.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">8</span>Or, pendant que Zacharie s’acquittait devant Dieu des fonctions sacerdotales, dans l’ordre de sa classe,</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">9</span>il fut désigné par le sort, selon la coutume observée par les prêtres, pour entrer dans le sanctuaire du Seigneur et y offrir l’encens.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">10</span>Et toute la multitude du peuple était dehors en prière à l’heure de l’encens.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">11</span>Mais un ange du Seigneur lui apparut, debout à droite de l’autel de l’encens.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">12</span>Zacharie, en le voyant, fut troublé, et la crainte le saisit.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">13</span>Mais l’ange lui dit : " Ne crains point, Zacharie, car ta prière a été exaucée ; ta femme Elisabeth te donnera un fils que tu appelleras Jean.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">14</span>Il sera pour toi un sujet de joie et d’allégresse, et beaucoup se réjouiront de sa naissance ;</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">15</span>car il sera grand devant le Seigneur. Il ne boira ni vin, ni rien qui enivre, car il sera rempli de l’Esprit-Saint dès le sein de sa mère.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">16</span>Il convertira beaucoup d’enfants d’Israël au Seigneur leur Dieu ;</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">17</span>et lui-même marchera devant lui, dans l’esprit et la puissance d’Elie, pour ramener les cœurs des pères vers les enfants, et les indociles à la sagesse des justes, afin de préparer au Seigneur un peuple parfait. "</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">18</span>Zacharie dit à l’ange : " A quoi reconnaîtrai-je que cela sera ? Car je suis vieux, et ma femme est avancée en âge. "</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">19</span>L’ange lui répondit : " Je suis Gabriel, qui me tiens devant Dieu ; j’ai été envoyé pour te parler et t’annoncer cette heureuse nouvelle.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">20</span>Et voici que tu seras muet et ne pourras parler jusqu’au jour où ces choses arriveront, parce que tu n’as pas cru à mes paroles, qui s’accompliront en leur temps. "</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">21</span>Cependant le peuple attendait Zacharie, et il s’étonnait qu’il demeurât si longtemps dans le sanctuaire.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">22</span>Mais étant sorti, il ne pouvait leur parler, et ils comprirent qu’il avait eu une vision dans le sanctuaire, ce qu’il leur faisait entendre par signes ; et il resta muet.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">23</span>Quand les jours de son ministère furent accomplis, il s’en alla en sa maison.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">24</span>Quelque temps après, Elisabeth, sa femme, conçut, et elle se tint cachée pendant cinq mois, disant :</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">25</span>" C’est une grâce que le Seigneur m’a faite, au jour où il m’a regardée pour ôter mon opprobre parmi les hommes. "</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">5</span>Durant le règne d'Hérode sur la Judée, il y avait un prêtre du nom de Zacharie, de la classe d'Abia; sa femme était une descendante d'Aaron et s'appelait Elisabeth. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">6</span>Tous deux étaient justes devant Dieu, ils suivaient d'une manière irréprochable tous les commandements et toutes les lois du Seigneur. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">7</span>Ils n'avaient pas d'enfant, parce qu'Elisabeth était stérile, et ils étaient l'un et l'autre d'un âge avancé.</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">8</span>Or, pendant que Zacharie remplissait sa fonction de prêtre devant Dieu – c'était le tour de sa classe – </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">9</span>il fut désigné par le sort, d'après la règle en vigueur pour les prêtres, pour entrer dans le temple du Seigneur et y brûler le parfum. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">10</span>Toute la multitude du peuple était dehors en prière, à l'heure de l'offrande du parfum. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">11</span>Alors un ange du Seigneur apparut à Zacharie et se tint debout à droite de l'autel des parfums. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">12</span>Zacharie fut troublé en le voyant et la peur s'empara de lui. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">13</span>Mais l'ange lui dit: «N’aie pas peur, Zacharie, car ta prière a été exaucée. Ta femme Elisabeth te donnera un fils et tu l'appelleras Jean. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">14</span>Il sera pour toi un sujet de joie et d'allégresse et beaucoup se réjouiront de sa naissance, </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">15</span>car il sera grand devant le Seigneur. Il ne boira ni vin ni boisson alcoolisée et il sera rempli de l'Esprit saint dès le ventre de sa mère. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">16</span>Il ramènera beaucoup d'Israélites au Seigneur, leur Dieu. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">17</span>Il marchera devant Dieu avec l'esprit et la puissance d'Elie pour ramener le cœur des pères vers leurs enfants et les rebelles à la sagesse des justes, afin de préparer pour le Seigneur un peuple bien disposé.» </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">18</span>Zacharie dit à l'ange: «A quoi reconnaîtrai-je cela? En effet, je suis vieux et ma femme est d'un âge avancé.» </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">19</span>L'ange lui répondit: «Je suis Gabriel, je me tiens devant Dieu; j'ai été envoyé pour te parler et pour t'annoncer cette bonne nouvelle. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">20</span>Voici, tu seras muet et tu ne pourras plus parler jusqu'au jour où cela arrivera, parce que tu n'as pas cru à mes paroles qui s'accompliront au moment voulu.»</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">21</span>Cependant, le peuple attendait Zacharie et s'étonnait qu'il s’attarde si longtemps dans le temple. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">22</span>Quand il sortit, il ne pouvait pas leur parler, et ils comprirent qu'il avait eu une vision dans le temple; il s'exprimait par signes et il resta muet. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">23</span>Lorsque ses jours de service furent terminés, il rentra chez lui. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">24</span>Quelque temps après, sa femme Elisabeth fut enceinte. Elle se cacha pendant cinq mois, disant: </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">25</span>«C’est l’œuvre que le Seigneur a faite quand il a porté le regard sur moi pour enlever ce qui faisait ma honte parmi les hommes.»</div>
+        </div>
+    </div>
+    <div class="titre" id="annonciation">Annonciation</div>
+    <div class="container">
+        <div id="Lc">
+            <p class="titreEv">Evangile selon Luc</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">26</span>Au sixième mois, l’ange Gabriel fut envoyé de Dieu dans une ville de Galilée appelée Nazareth,</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">27</span>auprès d’une vierge qui était fiancée à un homme de la maison de David, nommé Joseph, et le nom de la vierge était Marie.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">28</span>L’ange étant entré où elle était, lui dit : " Je vous salue, pleine de grâce ; le Seigneur est avec vous, vous êtes bénie entre les femmes. "</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">29</span>Marie l’ayant aperçu, fut troublée de ses paroles, et elle se demandait ce que pouvait signifier cette salutation.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">30</span>L’ange lui dit : " Ne craignez point, Marie, car vous avez trouvé grâce devant Dieu.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">31</span>Voici que vous concevrez en votre sein, et vous enfanterez un fils, et vous lui donnerez le nom de Jésus.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">32</span>Il sera grand, on l’appellera le Fils du Très-Haut ; le Seigneur Dieu lui donnera le trône de David son père ; il règnera éternellement sur la maison de Jacob,</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">33</span>et son règne n’aura point de fin. "</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">34</span>Marie dit à l’ange : " Comment cela se fera-t-il, puisque je ne connais point d’homme ? "</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">35</span>L’ange lui répondit : " L’Esprit-Saint viendra sur vous, et la vertu du Très-Haut vous couvrira de son ombre. C’est pourquoi l’être saint qui naîtra (de vous) sera appelé Fils de Dieu.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">36</span>Déjà Elisabeth, votre parente, a conçu elle aussi, un fils dans sa vieillesse, et c’est actuellement son sixième mois, à elle que l’on appelle stérile :</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">37</span>car rien ne sera impossible à Dieu. "</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">38</span>Marie dit alors : " Voici la servante du Seigneur, qu’il me soit fait selon votre parole. " Et l’ange la quitta.</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">26</span>Le sixième mois, l'ange Gabriel fut envoyé par Dieu dans une ville de Galilée, appelée Nazareth, </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">27</span>chez une vierge fiancée à un homme de la famille de David, appelé Joseph. Le nom de la vierge était Marie. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">28</span>L'ange entra chez elle et dit: «Je te salue, toi à qui une grâce a été faite, le Seigneur est avec toi. [Tu es bénie parmi les femmes.]» </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">29</span>Troublée par cette parole, Marie se demandait ce que pouvait signifier une telle salutation. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">30</span>L'ange lui dit: «N’aie pas peur, Marie, car tu as trouvé grâce auprès de Dieu. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">31</span>Voici que tu seras enceinte. Tu mettras au monde un fils et tu lui donneras le nom de Jésus. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">32</span>Il sera grand et sera appelé Fils du Très-Haut, et le Seigneur Dieu lui donnera le trône de David, son ancêtre. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">33</span>Il régnera sur la famille de Jacob éternellement, son règne n'aura pas de fin.» </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">34</span>Marie dit à l'ange: «Comment cela se fera-t-il, puisque je n'ai pas de relations avec un homme?» </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">35</span>L'ange lui répondit: «Le Saint-Esprit viendra sur toi et la puissance du Très-Haut te couvrira de son ombre. C'est pourquoi le saint enfant qui naîtra sera appelé Fils de Dieu. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">36</span>Voici qu'Elisabeth, ta parente, est elle aussi devenue enceinte d'un fils dans sa vieillesse. Celle que l'on appelait ‘la stérile’ est dans son sixième mois. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">37</span>En effet, rien n'est impossible à Dieu.» </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">38</span>Marie dit: «Je suis la servante du Seigneur. Que ta parole s’accomplisse pour moi!» Et l'ange la quitta.</div>
+        </div>
+    </div>
+    <div class="titre" id="elisabeth">Marie visite Elisabeth</div>
+    <div class="container">
+        <div id="Lc">
+            <p class="titreEv">Evangile selon Luc</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">39</span>En ces jours-là, Marie se levant, s’en alla en hâte au pays des montagnes, en une ville de Juda.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">40</span>Et elle entra dans la maison de Zacharie, et salua Elisabeth.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">41</span>Or, dès qu’Elisabeth eut entendu la salutation de Marie, l’enfant tressaillit dans son sein, et elle fut remplie du Saint-Esprit.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">42</span>Et élevant la voix, elle s’écria : " Vous êtes bénie entre les femmes, et le fruit de vos entrailles est béni.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">43</span>Et d’où m’est-il donné que la mère de mon Seigneur vienne à moi ?</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">44</span>Car votre voix, lorsque vous m’avez saluée, n’a pas plus tôt frappé mes oreilles, que mon enfant a tressailli de joie dans mon sein.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">45</span>Heureuse celle qui a cru ! car elles seront accomplies les choses qui lui ont été dites de la part du Seigneur ! "</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">46</span>Et Marie dit : " Mon âme glorifie le Seigneur.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">47</span>Et mon esprit tressaille de joie en Dieu, mon Sauveur,</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">48</span>Parce qu’il a jeté les yeux sur la bassesse de sa servante. Voici, en effet, que désormais toutes les générations m’appelleront bienheureuse,</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">49</span>Parce qu’il a fait en moi de grandes choses, Celui qui est puissant, Et dont le nom est saint,</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">50</span>Et dont la miséricorde s’étend d’âge en âge, Sur ceux qui le craignent.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">51</span>Il a déployé la force de son bras ; Il a dissipé ceux qui s’enorgueillissaient dans les pensées de leur cœur ;</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">52</span>Il a renversé de leur trône les potentats, Et il a élevé les petits ;</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">53</span>Il a comblé de biens les affamés, Et les riches, il les a renvoyés les mains vides.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">54</span>Il a pris soin d’Israël son serviteur, Se ressouvenant de sa miséricorde,</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">55</span>(Ainsi qu’il l’avait promis à nos pères) Envers Abraham et sa race, pour toujours. "</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">56</span>Marie demeura avec Elisabeth environ trois mois, et s’en retourna chez elle.</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">39</span>A la même époque, Marie s'empressa de se rendre dans une ville de la région montagneuse de Juda. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">40</span>Elle entra dans la maison de Zacharie et salua Elisabeth. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">41</span>Dès qu'Elisabeth entendit la salutation de Marie, son enfant remua brusquement en elle et elle fut remplie du Saint-Esprit. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">42</span>Elle s'écria d'une voix forte: «Tu es bénie parmi les femmes et l'enfant que tu portes est béni. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">43</span>Comment m'est-il accordé que la mère de mon Seigneur vienne vers moi? </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">44</span>En effet, dès que j'ai entendu ta salutation, l'enfant a tressailli de joie en moi. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">45</span>Heureuse celle qui a cru, parce que ce qui lui a été dit de la part du Seigneur s'accomplira.»</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">46</span>Marie dit: «Mon âme célèbre la grandeur du Seigneur</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">47</span>et mon esprit se réjouit en Dieu, mon Sauveur,</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">48</span>parce qu'il a porté le regard sur son humble servante. En effet, voici, désormais toutes les générations me diront heureuse,</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">49</span>parce que le Tout-Puissant a fait de grandes choses pour moi. Son nom est saint,</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">50</span>et sa bonté s'étend de génération en génération sur ceux qui le craignent.</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">51</span>Il a agi avec la force de son bras, il a dispersé ceux qui avaient dans le cœur des pensées orgueilleuses.</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">52</span>Il a renversé les puissants de leurs trônes et il a élevé les humbles.</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">53</span>Il a rassasié de biens les affamés et il a renvoyé les riches les mains vides.</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">54</span>Il a secouru Israël, son serviteur, et il s'est souvenu de sa bonté</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">55</span>– comme il l'avait dit à nos ancêtres – en faveur d'Abraham et de sa descendance pour toujours.»</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">56</span>Marie resta environ trois mois avec Elisabeth, puis elle retourna chez elle.</div>
+        </div>
+    </div>
+    <div class="titre" id="naissanceJB">Naissance de Jean Baptiste</div>
+    <div class="container">
+        <div id="Lc">
+            <p class="titreEv">Evangile selon Luc</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">57</span>Cependant, le temps s’accomplit où Elisabeth devait enfanter, et elle mit au monde un fils.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">58</span>Ses voisins et ses parents, ayant appris que le Seigneur avait signalé en elle sa miséricorde, se réjouissaient avec elle.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">59</span>Le huitième jour, ils vinrent pour circoncire l’enfant, et ils le nommaient Zacharie d’après le nom de son père.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">60</span>Mais sa mère, prenant la parole : " Non, dit-elle, mais il s’appellera Jean. "</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">61</span>Ils lui dirent : " Il n’y a personne dans votre famille qui soit appelé de ce nom. "</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">62</span>Et ils demandaient par signe à son père comment il voulait qu’on le nommât.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">63</span>S’étant fait apporter une tablette, il écrivit : " Jean est son nom " ; et tous furent dans l’étonnement.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">64</span>Au même instant sa bouche s’ouvrit, sa langue se délia ; et il parlait, bénissant Dieu.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">65</span>La crainte s’empara de tous les habitants d’alentour, et partout dans les montagnes de la Judée, on racontait toutes ces merveilles.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">66</span>Tous ceux qui en entendirent parler les recueillirent dans leur cœur, et ils disaient : " Que sera donc cet enfant ? Car la main du Seigneur était avec lui. "</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">67</span>Et Zacharie, son père, fut rempli de l’Esprit-Saint, et il prophétisa, en disant :</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">68</span>" Béni soit le Seigneur, le Dieu d’Israël, Parce qu’il a visité et racheté son peuple.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">69</span>Et qu’il a suscité une Force pour nous sauver, Dans la maison de David, son serviteur,</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">70</span>(Ainsi qu’il l’a promis par la bouche de ses saints, De ses prophètes, dès les temps anciens).</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">71</span>Pour nous sauver de nos ennemis Et du pouvoir de tous ceux qui nous haïssent.</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">72</span>Afin d’exercer sa miséricorde envers nos pères. Et de se souvenir de son pacte saint ;</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">73</span>Selon le serment qu’il fit à Abraham, notre père,</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">74</span>De nous accorder que, sans crainte, Affranchis du pouvoir de nos ennemis,</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">75</span>Nous le servions, avec une sainteté et une justice Dignes de ses regards, tous les jours de notre vie</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">76</span>Quant à toi, petit enfant, tu seras appelé prophète du Très-Haut, Car tu marcheras devant la face du Seigneur, Pour lui préparer les voies ;</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">77</span>Pour apprendre à son peuple à reconnaître le salut Dans la rémission de leurs péchés :</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">78</span>Par l’effet de la tendre miséricorde de notre Dieu, Grâce à laquelle nous a visités, d’en haut, le Soleil levant,</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">79</span>Pour éclairer ceux qui sont assis dans les ténèbres et l’ombre de la mort, Pour diriger nos pas dans la voie de la paix. "</div>
+            <div ev="Lc" chapter="1" trad="crampon" class="box"><span class="verset">80</span>Or l’enfant croissait et se fortifiait en esprit, et il demeura dans le désert jusqu’au jour de sa manifestation devant Israël.</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">57</span>Le moment où Elisabeth devait accoucher arriva et elle mit au monde un fils. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">58</span>Ses voisins et ses parents apprirent que le Seigneur avait fait preuve d’une grande bonté envers elle, et ils se réjouirent avec elle. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">59</span>Le huitième jour, ils vinrent pour circoncire l'enfant. Ils voulaient l’appeler Zacharie, d’après le nom de son père, </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">60</span>mais sa mère prit la parole et dit: «Non, il sera appelé Jean.» </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">61</span>Ils lui dirent: «Il n'y a dans ta parenté personne qui porte ce nom» </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">62</span>et ils firent des signes à son père pour savoir comment il voulait qu'on l'appelle. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">63</span>Zacharie demanda une tablette et il écrivit: «Son nom est Jean.» Tous furent dans l'étonnement. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">64</span>Immédiatement sa bouche s'ouvrit, sa langue se délia, et il parlait et bénissait Dieu. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">65</span>La crainte s'empara de tous les habitants des environs, et dans toute la région montagneuse de Judée on s'entretenait de tous ces événements. </div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">66</span>Tous ceux qui les apprirent les gardèrent dans leur cœur, et ils disaient: «Que sera donc cet enfant?» Et [en effet] la main du Seigneur était avec lui.</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">67</span>Son père Zacharie fut rempli du Saint-Esprit et prophétisa en ces termes:</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">68</span>«Béni soit le Seigneur, le Dieu d'Israël, parce qu'il a visité et racheté son peuple.</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">69</span>Il nous a donné un puissant Sauveur dans la famille de son serviteur David.</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">70</span>C’est ce qu’il avait annoncé par la bouche de ses saints prophètes des temps anciens:</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">71</span>un Sauveur qui nous délivre de nos ennemis et de la domination de tous ceux qui nous détestent!</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">72</span>Ainsi, il manifeste sa bonté envers nos ancêtres et se souvient de sa sainte alliance,</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">73</span>conformément au serment qu'il avait fait à Abraham, notre ancêtre:</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">74</span>il avait juré qu'après nous avoir délivrés de nos ennemis il nous accorderait de le servir sans crainte,</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">75</span>en marchant devant lui dans la sainteté et dans la justice tous les jours de notre vie.</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">76</span>»Et toi, petit enfant, tu seras appelé prophète du Très-Haut, car tu marcheras sous le regard du Seigneur pour préparer ses chemins</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">77</span>et pour donner à son peuple la connaissance du salut par le pardon de ses péchés,</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">78</span>à cause de la profonde bonté de notre Dieu. Grâce à elle, le soleil levant nous a visités d'en haut</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">79</span>pour éclairer ceux qui sont assis dans les ténèbres et dans l'ombre de la mort, pour diriger nos pas sur le chemin de la paix.»</div>
+            <div ev="Lc" chapter="1" trad="S21" class="box"><span class="verset">80</span>L'enfant grandissait et se fortifiait en esprit. Il resta dans les déserts jusqu'au jour où il se présenta devant Israël.  </div>
+        </div>
+    </div>
+    <div class="titre" id="joseph">L'Ange parle à Joseph</div>
+    <div class="container">
+        <div id="Mt">
+            <p class="titreEv">Evangile selon Matthieu</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Mt" chapter="1" trad="crampon" class="box"><span class="verset">18</span>Or la naissance de Jésus-Christ arriva ainsi. Marie, sa mère, étant fiancée à Joseph, il se trouva, avant qu’ils eussent habité ensemble, qu’elle avait conçu par la vertu du Saint-Esprit.</div>
+            <div ev="Mt" chapter="1" trad="crampon" class="box"><span class="verset">19</span>Joseph, son mari, qui était un homme juste, ne voulant pas la diffamer, résolut de la renvoyer secrètement.</div>
+            <div ev="Mt" chapter="1" trad="crampon" class="box"><span class="verset">20</span>Comme il était dans cette pensée, voici qu’un ange du Seigneur lui apparut en songe, et lui dit : " Joseph, fils de David, ne craint point de prendre avec toi Marie ton épouse, car ce qui est formé en elle est l’ouvrage du Saint-Esprit.</div>
+            <div ev="Mt" chapter="1" trad="crampon" class="box"><span class="verset">21</span>Et elle enfantera un fils, et tu lui donneras le nom de Jésus ; car il sauvera son peuple de ses péchés. "</div>
+            <div ev="Mt" chapter="1" trad="crampon" class="box"><span class="verset">22</span>Or tout cela arriva afin que fût accompli ce qu’avait dit le Seigneur par le prophète :</div>
+            <div ev="Mt" chapter="1" trad="crampon" class="box"><span class="verset">23</span>" Voici que la Vierge concevra et enfantera un fils ; et on le nommera Emmanuel, " c’est à dire Dieu avec nous.</div>
+            <div ev="Mt" chapter="1" trad="crampon" class="box"><span class="verset">24</span>Réveillé de son sommeil, Joseph fit ce que l’ange du Seigneur lui avait commandé : il prit avec lui Marie son épouse.</div>
+            <div ev="Mt" chapter="1" trad="crampon" class="box"><span class="verset">25</span>Mais il ne la connut point jusqu’à ce qu’elle enfantât son fils premier-né, à qui il donna le nom de Jésus.</div>
+            <div ev="Mt" chapter="1" trad="S21" class="box"><span class="verset">18</span>Voici de quelle manière arriva la naissance de Jésus-Christ. Marie, sa mère, était fiancée à Joseph; or, avant qu'ils aient habité ensemble, elle se trouva enceinte par l'action du Saint-Esprit. </div>
+            <div ev="Mt" chapter="1" trad="S21" class="box"><span class="verset">19</span>Joseph, son fiancé, qui était un homme juste et qui ne voulait pas l’exposer au déshonneur, se proposa de rompre secrètement avec elle. </div>
+            <div ev="Mt" chapter="1" trad="S21" class="box"><span class="verset">20</span>Comme il y pensait, un ange du Seigneur lui apparut dans un rêve et dit: «Joseph, descendant de David, n’aie pas peur de prendre Marie pour femme, car l'enfant qu’elle porte vient du Saint-Esprit. </div>
+            <div ev="Mt" chapter="1" trad="S21" class="box"><span class="verset">21</span>Elle mettra au monde un fils et tu lui donneras le nom de Jésus car c'est lui qui sauvera son peuple de ses péchés.»</div>
+            <div ev="Mt" chapter="1" trad="S21" class="box"><span class="verset">22</span>Tout cela arriva afin que s'accomplisse ce que le Seigneur avait annoncé par le prophète: </div>
+            <div ev="Mt" chapter="1" trad="S21" class="box"><span class="verset">23</span>La vierge sera enceinte, elle mettra au monde un fils et on l’appellera Emmanuel, ce qui signifie «Dieu avec nous».</div>
+            <div ev="Mt" chapter="1" trad="S21" class="box"><span class="verset">24</span>A son réveil, Joseph fit ce que l'ange du Seigneur lui avait ordonné et il prit sa femme chez lui, </div>
+            <div ev="Mt" chapter="1" trad="S21" class="box"><span class="verset">25</span>mais il n'eut pas de relations conjugales avec elle jusqu'à ce qu'elle ait mis au monde un fils [premier-né] auquel il donna le nom de Jésus.</div>
+        </div>
+    </div>
+    <div class="titre" id="nativite">Naissance de Jésus</div>
+    <div class="container">
+        <div id="Lc">
+            <p class="titreEv">Evangile selon Luc</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">1</span>En ces jours-là fut publié un édit de César Auguste, pour le recensement de toute la terre.</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">2</span>Ce premier recensement eut lieu pendant que Quirinius commandait la Syrie.</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">3</span>Et tous allaient se faire recenser, chacun dans sa ville.</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">4</span>Joseph monta de Galilée, de la ville de Nazareth, en Judée, à la ville de David, appelée Bethléem, parce qu’il était de la maison et de la famille de David,</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">5</span>pour être recensé avec Marie son épouse, qui était enceinte.</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">6</span>Or, pendant qu’ils étaient en ce lieu, le temps où elle devait enfanter s’accomplit.</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">7</span>Et elle mit au monde son fils premier-né, l’enveloppa de langes et le coucha dans une crèche, parce qu’il n’y avait pas de place pour eux dans l’hôtellerie.</div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">1</span>A cette époque-là parut un édit de l'empereur Auguste qui ordonnait le recensement de tout l’Empire. </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">2</span>Ce premier recensement eut lieu pendant que Quirinius était gouverneur de Syrie. </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">3</span>Tous allaient se faire inscrire, chacun dans sa ville d'origine.</div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">4</span>Joseph aussi monta de la Galilée, de la ville de Nazareth, pour se rendre en Judée dans la ville de David, appelée Bethléhem, parce qu'il était de la famille et de la lignée de David. </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">5</span>Il y alla pour se faire inscrire avec sa femme Marie qui était enceinte. </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">6</span>Pendant qu'ils étaient là, le moment où Marie devait accoucher arriva, </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">7</span>et elle mit au monde son fils premier-né. Elle l'enveloppa de langes et le coucha dans une mangeoire parce qu'il n'y avait pas de place pour eux dans la salle des hôtes.</div>
+        </div>
+    </div>
+    <div class="titre" id="adoration">Adoration</div>
+    <div class="container">
+        <div id="Mt">
+            <p class="titreEv">Evangile selon Matthieu</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Mt" chapter="2" trad="crampon" class="box"><span class="verset">1</span>Jésus étant né à Bethléem de Judée, aux jours du roi Hérode, voici que des Mages arrivèrent d’Orient à Jérusalem,</div>
+            <div ev="Mt" chapter="2" trad="crampon" class="box"><span class="verset">2</span>disant : " Où est le roi des Juifs qui vient de naître ? Car nous avons vu son étoile en Orient, et nous sommes venus l’adorer. "</div>
+            <div ev="Mt" chapter="2" trad="crampon" class="box"><span class="verset">3</span>Ce que le roi Hérode ayant appris, il fut troublé, et tout Jérusalem avec lui.</div>
+            <div ev="Mt" chapter="2" trad="crampon" class="box"><span class="verset">4</span>Il assembla tous les Princes des prêtres et les Scribes du peuple, et s’enquit auprès d’eux où devait naître le Christ.</div>
+            <div ev="Mt" chapter="2" trad="crampon" class="box"><span class="verset">5</span>Ils lui dirent : " A Bethléem de Judée, selon ce qui a été écrit par le prophète :</div>
+            <div ev="Mt" chapter="2" trad="crampon" class="box"><span class="verset">6</span>Et toi, Bethléem, terre de Juda, tu n’es pas la moindre parmi les principales villes de Juda, car de toi sortira un Chef qui doit paître Israël, mon peuple. "</div>
+            <div ev="Mt" chapter="2" trad="crampon" class="box"><span class="verset">7</span>Alors Hérode, ayant fait venir secrètement les Mages, apprit d’eux la date précise à laquelle l’étoile était apparue.</div>
+            <div ev="Mt" chapter="2" trad="crampon" class="box"><span class="verset">8</span>Et il les envoya à Bethléem en disant : " Allez, informez-vous exactement de l’Enfant, et lorsque vous l’aurez trouvé, faites-le-moi savoir, afin que moi aussi j’aille l’adorer. "</div>
+            <div ev="Mt" chapter="2" trad="crampon" class="box"><span class="verset">9</span>Ayant entendu les paroles du roi, ils partirent. Et voilà que l’étoile qu’ils avaient vue en Orient allait devant eux, jusqu’à ce que, venant au-dessus du lieu où était l’Enfant, elle s’arrêta.</div>
+            <div ev="Mt" chapter="2" trad="crampon" class="box"><span class="verset">10</span>A la vue de l’étoile, ils se réjouirent d’une grande joie.</div>
+            <div ev="Mt" chapter="2" trad="crampon" class="box"><span class="verset">11</span>Ils entrèrent dans la maison, trouvèrent l’Enfant avec Marie, sa mère, et, se prosternant, ils l’adorèrent ; puis, ouvrant leurs trésors, ils lui offrirent en présent de l’or, de l’encens et de la myrrhe.</div>
+            <div ev="Mt" chapter="2" trad="crampon" class="box"><span class="verset">12</span>Mais ayant été avertis en songe de ne point retourner vers Hérode, ils regagnèrent leur pays par un autre chemin.</div>
+            <div ev="Mt" chapter="2" trad="S21" class="box"><span class="verset">1</span>Jésus naquit à Bethléhem en Judée, à l’époque du roi Hérode. Or, des mages venus d'Orient arrivèrent à Jérusalem </div>
+            <div ev="Mt" chapter="2" trad="S21" class="box"><span class="verset">2</span>et dirent: «Où est le roi des Juifs qui vient de naître? En effet, nous avons vu son étoile en Orient et nous sommes venus pour l'adorer.»</div>
+            <div ev="Mt" chapter="2" trad="S21" class="box"><span class="verset">3</span>Quand le roi Hérode apprit cela, il fut troublé et tout Jérusalem avec lui. </div>
+            <div ev="Mt" chapter="2" trad="S21" class="box"><span class="verset">4</span>Il rassembla tous les chefs des prêtres et spécialistes de la loi que comptait le peuple et leur demanda où le Messie devait naître. </div>
+            <div ev="Mt" chapter="2" trad="S21" class="box"><span class="verset">5</span>Ils lui dirent: «A Bethléhem en Judée, car voici ce qui a été écrit par le prophète: </div>
+            <div ev="Mt" chapter="2" trad="S21" class="box"><span class="verset">6</span>Et toi, Bethléhem, terre de Juda, tu n'es certes pas la plus petite parmi les principales villes de Juda, car de toi sortira un chef qui prendra soin d’Israël, mon peuple.»</div>
+            <div ev="Mt" chapter="2" trad="S21" class="box"><span class="verset">7</span>Alors Hérode fit appeler en secret les mages; il s'informa soigneusement auprès d'eux du moment où l'étoile était apparue, </div>
+            <div ev="Mt" chapter="2" trad="S21" class="box"><span class="verset">8</span>puis il les envoya à Bethléhem en disant: «Allez prendre des informations exactes sur le petit enfant. Quand vous l'aurez trouvé, faites-le-moi savoir, afin que j'aille moi aussi l'adorer.»</div>
+            <div ev="Mt" chapter="2" trad="S21" class="box"><span class="verset">9</span>Après avoir entendu le roi, ils partirent. L'étoile qu'ils avaient vue en Orient allait devant eux jusqu'au moment où, arrivée au-dessus de l'endroit où était le petit enfant, elle s'arrêta. </div>
+            <div ev="Mt" chapter="2" trad="S21" class="box"><span class="verset">10</span>Quand ils aperçurent l'étoile, ils furent remplis d'une très grande joie. </div>
+            <div ev="Mt" chapter="2" trad="S21" class="box"><span class="verset">11</span>Ils entrèrent dans la maison, virent le petit enfant avec Marie, sa mère, se prosternèrent et l'adorèrent. Ensuite, ils ouvrirent leurs trésors et lui offrirent en cadeau de l'or, de l'encens et de la myrrhe. </div>
+            <div ev="Mt" chapter="2" trad="S21" class="box"><span class="verset">12</span>Puis, avertis dans un rêve de ne pas retourner vers Hérode, ils regagnèrent leur pays par un autre chemin.</div>
+
+        </div>
+        <div id="Lc">
+            <p class="titreEv">Evangile selon Luc</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">8</span>Il y avait aux environs des bergers qui passaient la nuit aux champs, veillant à la garde de leur troupeau.</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">9</span>Tout à coup un ange du Seigneur parut auprès d’eux et le rayonnement de la gloire du Seigneur les environna, et ils furent saisis d’une grande crainte.</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">10</span>Mais l’ange leur dit : " Ne craignez point, car je vous annonce une nouvelle qui sera pour tout le peuple une grande joie.</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">11</span>Il vous est né aujourd’hui, dans la ville de David, un Sauveur, qui est le Christ Seigneur.</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">12</span>Et voici ce qui vous servira de signe : vous trouverez un nouveau-né enveloppé de langes et couché dans une crèche. "</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">13</span>Au même instant, se joignit à l’ange une troupe de la milice céleste, louant Dieu et disant :</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">14</span>" Gloire, dans les hauteurs, à Dieu ! Et, sur la terre, paix aux hommes, Objet de la bienveillance divine ! "</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">15</span>Lorsque les anges, remontant au ciel, les eurent quittés, les bergers se dirent les uns aux autres : " Passons jusqu’à Bethléem, et voyons cet événement qui est arrivé, et que le Seigneur nous a fait savoir. "</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">16</span>Ils s’y rendirent en toute hâte, et trouvèrent Marie, Joseph, et le nouveau-né couché dans la crèche.</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">17</span>Après l’avoir vu, ils publièrent la révélation qui leur avait été faite au sujet de cet Enfant.</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">18</span>Et tous ceux qui les entendirent furent dans l’admiration de ce que leur disaient les bergers.</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">19</span>Or Marie conservait avec soin toutes ces choses, les méditant dans son cœur.</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">20</span>Et les bergers s’en retournèrent, glorifiant et louant Dieu de tout ce qu’ils avaient vu et entendu, selon ce qui leur avait été annoncé.</div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">8</span>Il y avait dans la même région des bergers qui passaient la nuit dans les champs pour y garder leur troupeau. </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">9</span>Un ange du Seigneur leur apparut et la gloire du Seigneur resplendit autour d'eux. Ils furent saisis d'une grande frayeur. </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">10</span>Mais l'ange leur dit: «N’ayez pas peur, car je vous annonce une bonne nouvelle qui sera une source de grande joie pour tout le peuple: </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">11</span>aujourd'hui, dans la ville de David, il vous est né un Sauveur qui est le Messie, le Seigneur. </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">12</span>Voici à quel signe vous le reconnaîtrez: vous trouverez un nouveau-né enveloppé de langes et couché dans une mangeoire.» </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">13</span>Et tout à coup une foule d'anges de l'armée céleste se joignit à l'ange. Ils adressaient des louanges à Dieu et disaient: </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">14</span>«Gloire à Dieu dans les lieux très hauts, paix sur la terre et bienveillance parmi les hommes!»</div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">15</span>Lorsque les anges les eurent quittés pour retourner au ciel, les bergers se dirent les uns aux autres: «Allons jusqu'à Bethléhem pour voir ce qui est arrivé, ce que le Seigneur nous a fait connaître.» </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">16</span>Ils se dépêchèrent d'y aller et ils trouvèrent Marie et Joseph, ainsi que le nouveau-né couché dans la mangeoire. </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">17</span>Après l'avoir vu, ils racontèrent ce qui leur avait été dit au sujet de ce petit enfant. </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">18</span>Tous ceux qui entendirent les bergers furent étonnés de ce qu'ils leur disaient. </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">19</span>Marie gardait le souvenir de tout cela et le méditait dans son cœur. </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">20</span>Puis les bergers repartirent en célébrant la gloire de Dieu et en lui adressant des louanges à cause de tout ce qu'ils avaient entendu et vu et qui était conforme à ce qui leur avait été annoncé.</div>
+        </div>
+    </div>
+    <div class="titre" id="presentation">Présentation de Jésus au temple</div>
+    <div class="container">
+        <div id="Lc">
+            <p class="titreEv">Evangile selon Luc</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">21</span>Les huit jours étant accomplis, pour la circoncision de l’Enfant, il fut appelé Jésus, nom que l’ange lui avait donné avant qu’il eût été conçu dans le sein maternel.</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">22</span>Puis, lorsque les jours de leur purification furent accomplis, selon la loi de Moïse, Marie et Joseph portèrent l’Enfant à Jérusalem pour le présenter au Seigneur,</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">23</span>suivant ce qui est écrit dans la loi du Seigneur : " Tout mâle premier-né sera consacré au Seigneur " ;</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">24</span>et pour offrir en sacrifice, ainsi que le prescrit la loi du Seigneur, une paire de tourterelles, ou deux petites colombes.</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">25</span>Or, il y avait à Jérusalem un homme nommé Siméon ; c’était un homme juste et craignant Dieu, qui attendait la consolation d’Israël, et l’Esprit-Saint était sur lui.</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">26</span>L’Esprit-Saint lui avait révélé qu’il ne mourrait point avant d’avoir vu le Christ du Seigneur.</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">27</span>Il vint donc dans le temple, poussé par l’Esprit. Et comme les parents apportaient le petit Enfant Jésus, pour observer les coutumes légales à son égard,</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">28</span>lui aussi, il le reçut entre ses bras, et bénit Dieu en disant :</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">29</span>" Maintenant, ô Maître, vous laissez partir votre serviteur En paix, selon votre parole ;</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">30</span>Puisque mes yeux ont vu votre salut,</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">31</span>Que vous avez préparé à la face de tous les peuples :</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">32</span>Lumière qui doit dissiper les ténèbres des Nations Et gloire d’Israël, votre peuple. "</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">33</span>Le père et la mère de l’Enfant étaient dans l’admiration des choses que l’on disait de lui.</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">34</span>Et Siméon les bénit et dit à Marie, sa mère : " Cet Enfant est au monde pour la chute et la résurrection d’un grand nombre en Israël, et pour être un signe en butte à la contradiction ; —</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">35</span>vous-même, un glaive transpercera votre âme ; — et ainsi seront révélées les pensées cachées dans le cœur d’un grand nombre. "</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">36</span>Il y avait aussi une prophétesse, Anne, fille de Phanuel, de la tribu d’Aser ; elle était fort avancée en âge, ayant vécu, depuis sa virginité, sept ans avec son mari.</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">37</span>Restée veuve, et parvenue à quatre-vingt-quatre ans, elle ne quittait point le temple, servant Dieu nuit et jour dans le jeûne et dans la prière.</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">38</span>Elle aussi, survenant à cette heure, se mit à louer le Seigneur et à parler de l’Enfant à tous ceux qui, à Jérusalem, attendaient la rédemption.</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">39</span>Lorsqu’ils eurent tout accompli selon la loi du Seigneur, ils retournèrent en Galilée, à Nazareth, leur ville.</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">40</span>Cependant l’Enfant croissait et se fortifiait, étant rempli de sagesse, et la grâce de Dieu était sur lui.</div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">21</span>Huit jours plus tard, ce fut le moment de circoncire l'enfant; on lui donna le nom de Jésus, nom que l'ange avait indiqué avant sa conception. </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">22</span>Quand la période de leur purification prit fin, conformément à la loi de Moïse, Joseph et Marie l'amenèrent à Jérusalem pour le présenter au Seigneur </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">23</span>– suivant ce qui est écrit dans la loi du Seigneur: Tout mâle premier-né sera consacré au Seigneur – </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">24</span>et pour offrir en sacrifice un couple de tourterelles ou deux jeunes pigeons, comme cela est prescrit dans la loi du Seigneur.</div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">25</span>Or il y avait à Jérusalem un homme appelé Siméon. Cet homme était juste et pieux, il attendait la consolation d'Israël et l'Esprit saint était sur lui. </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">26</span>Le Saint-Esprit lui avait révélé qu'il ne mourrait pas avant d'avoir vu le Messie du Seigneur. </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">27</span>Il vint au temple, poussé par l'Esprit. Et quand les parents amenèrent le petit enfant Jésus pour accomplir à son sujet ce que prescrivait la loi, </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">28</span>il le prit dans ses bras, bénit Dieu et dit:</div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">29</span>«Maintenant, Seigneur, tu laisses ton serviteur s'en aller en paix, conformément à ta promesse,</div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">30</span>car mes yeux ont vu ton salut,</div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">31</span>salut que tu as préparé devant tous les peuples,</div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">32</span>lumière pour éclairer les nations et gloire d'Israël, ton peuple.»</div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">33</span>Joseph et la mère [de Jésus] étaient émerveillés de ce qu'on disait de lui. </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">34</span>Siméon les bénit et dit à Marie, sa mère: «Cet enfant est destiné à amener la chute et le relèvement de beaucoup en Israël et à devenir un signe qui provoquera la contradiction. </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">35</span>Toi-même, une épée te transpercera l'âme. Ainsi, les pensées de beaucoup de cœurs seront révélées.»</div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">36</span>Il y avait aussi une prophétesse, Anne, fille de Phanuel, de la tribu d'Aser. Elle était d'un âge très avancé. Elle n’avait vécu que 7 ans avec son mari après son mariage. </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">37</span>Restée veuve et âgée de 84 ans, elle ne quittait pas le temple; elle servait Dieu nuit et jour dans le jeûne et dans la prière. </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">38</span>Arrivée elle aussi à la même heure, elle disait publiquement sa reconnaissance envers Dieu et parlait de Jésus à tous ceux qui attendaient la délivrance à Jérusalem.</div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">39</span>Après avoir accompli tout ce que prescrivait la loi du Seigneur, Joseph et Marie retournèrent en Galilée, à Nazareth, leur ville. </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">40</span>Or l'enfant grandissait et se fortifiait [en esprit]. Il était rempli de sagesse et la grâce de Dieu était sur lui.</div>
+        </div>
+    </div>
+    <div class="titre" id="egypte">Fuite en Egypte</div>
+    <div class="container">
+        <div id="Mt">
+            <p class="titreEv">Evangile selon Matthieu</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Mt" chapter="2" trad="crampon" class="box"><span class="verset">13</span>Après leur départ, voici qu’un ange du Seigneur apparut à Joseph pendant son sommeil, et lui dit : " Lève-toi, prends l’Enfant et sa mère, fuis en Égypte et restes-y jusqu’à ce que je t’avertisse ; car Hérode va rechercher l’Enfant pour le faire périr. "</div>
+            <div ev="Mt" chapter="2" trad="crampon" class="box"><span class="verset">14</span>Joseph se leva, et la nuit même, prenant l’Enfant avec sa mère, il se retira en Égypte.</div>
+            <div ev="Mt" chapter="2" trad="crampon" class="box"><span class="verset">15</span>Et il y resta jusqu’à la mort d’Hérode, afin que s’accomplît ce qu’avait dit le Seigneur par le Prophète : " J’ai rappelé mon fils d’Égypte. "</div>
+            <div ev="Mt" chapter="2" trad="S21" class="box"><span class="verset">13</span>Lorsqu'ils furent partis, un ange du Seigneur apparut dans un rêve à Joseph et dit: «Lève-toi, prends le petit enfant et sa mère, fuis en Egypte et restes-y jusqu'à ce que je te parle, car Hérode va rechercher le petit enfant pour le faire mourir.» </div>
+            <div ev="Mt" chapter="2" trad="S21" class="box"><span class="verset">14</span>Joseph se leva, prit de nuit le petit enfant et sa mère et se retira en Egypte. </div>
+            <div ev="Mt" chapter="2" trad="S21" class="box"><span class="verset">15</span>Il y resta jusqu'à la mort d'Hérode, afin que s'accomplisse ce que le Seigneur avait annoncé par le prophète: J'ai appelé mon fils à sortir d'Egypte.</div>
+        </div>
+    </div>
+    <div class="titre" id="massacre">Massacre des innocents</div>
+    <div class="container">
+        <div id="Mt">
+            <p class="titreEv">Evangile selon Matthieu</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Mt" chapter="2" trad="crampon" class="box"><span class="verset">16</span>Alors Hérode, voyant que les Mages s’étaient joués de lui, entra dans une grande colère, et envoya tuer tous les enfants qui étaient dans Bethléem et dans les environs, depuis l’âge de deux ans et au-dessous, d’après la date qu’il connaissait exactement par les Mages.</div>
+            <div ev="Mt" chapter="2" trad="crampon" class="box"><span class="verset">17</span>Alors fut accompli l’oracle du prophète Jérémie disant :</div>
+            <div ev="Mt" chapter="2" trad="crampon" class="box"><span class="verset">18</span>Une voix a été entendue dans Rama, des plaintes et des cris lamentables : Rachel pleure ses enfants ; et elle n’a pas voulu être consolée, parce qu’ils ne sont plus.</div>
+            <div ev="Mt" chapter="2" trad="S21" class="box"><span class="verset">16</span>Quand Hérode vit que les mages l'avaient trompé, il se mit dans une grande colère, et il envoya tuer tous les enfants de deux ans et au-dessous qui étaient à Bethléhem et dans tout son territoire, selon la date qu'il s'était fait préciser par les mages. </div>
+            <div ev="Mt" chapter="2" trad="S21" class="box"><span class="verset">17</span>Alors s'accomplit ce que le prophète Jérémie avait annoncé: </div>
+            <div ev="Mt" chapter="2" trad="S21" class="box"><span class="verset">18</span>On a entendu des cris à Rama, des pleurs et de grandes lamentations: c'est Rachel qui pleure ses enfants et n'a pas voulu être consolée, parce qu'ils ne sont plus là.</div>
+        </div>
+    </div>
+    <div class="titre" id="nazareth">Retour d'Egypte et départ pour Nazareth</div>
+    <div class="container">
+        <div id="Mt">
+            <p class="titreEv">Evangile selon Matthieu</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Mt" chapter="2" trad="crampon" class="box"><span class="verset">19</span>Hérode étant mort, voici qu’un ange du Seigneur apparut en songe à Joseph dans la terre d’Égypte,</div>
+            <div ev="Mt" chapter="2" trad="crampon" class="box"><span class="verset">20</span>et lui dit : " Lève-toi, prends l’Enfant et sa mère, et va dans la terre d’Israël, car ceux qui en voulaient à la vie de l’Enfant sont morts. "</div>
+            <div ev="Mt" chapter="2" trad="crampon" class="box"><span class="verset">21</span>Joseph s’étant levé, prit l’Enfant et sa mère, et vint dans la terre d’Israël.</div>
+            <div ev="Mt" chapter="2" trad="crampon" class="box"><span class="verset">22</span>Mais, apprenant qu’Archélaüs régnait en Judée à la place d’Hérode, son père, il n’osa y aller, et, ayant été averti en songe, il se retira dans la Galilée</div>
+            <div ev="Mt" chapter="2" trad="crampon" class="box"><span class="verset">23</span>et vint habiter une ville nommée Nazareth, afin que s’accomplît ce qu’avaient dit les prophètes : " Il sera appelé Nazaréen. "</div>
+            <div ev="Mt" chapter="2" trad="S21" class="box"><span class="verset">19</span>Après la mort d'Hérode, un ange du Seigneur apparut dans un rêve à Joseph, en Egypte, </div>
+            <div ev="Mt" chapter="2" trad="S21" class="box"><span class="verset">20</span>et dit: «Lève-toi, prends le petit enfant et sa mère et va dans le pays d'Israël, car ceux qui en voulaient à la vie du petit enfant sont morts.» </div>
+            <div ev="Mt" chapter="2" trad="S21" class="box"><span class="verset">21</span>Joseph se leva, prit le petit enfant et sa mère et alla dans le pays d'Israël. </div>
+            <div ev="Mt" chapter="2" trad="S21" class="box"><span class="verset">22</span>Cependant, quand il apprit qu'Archélaüs régnait sur la Judée à la place de son père Hérode, il eut peur de s'y rendre. Averti dans un rêve, il se retira dans le territoire de la Galilée </div>
+            <div ev="Mt" chapter="2" trad="S21" class="box"><span class="verset">23</span>et vint habiter dans une ville appelée Nazareth, afin que s'accomplisse ce que les prophètes avaient annoncé: «Il sera appelé nazaréen.»</div>
+        </div>
+    </div>
+    <div class="titre" id="temple">Jésus perdu et retrouvé au Temple</div>
+    <div class="container">
+        <div id="Lc">
+            <p class="titreEv">Evangile selon Luc</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">41</span>Or ses parents allaient tous les ans à Jérusalem, à la fête de Pâque.</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">42</span>Quand il eut atteint sa douzième année, ils y montèrent, selon la coutume de cette fête ;</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">43</span>et lorsqu’ils s’en retournèrent, les jours de la fête étant passés, l’Enfant Jésus resta dans la ville, sans que ses parents s’en fussent aperçus.</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">44</span>Pensant qu’il était avec leurs compagnons de voyage, ils marchèrent tout un jour, puis ils le cherchèrent parmi leurs parents et leurs connaissances.</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">45</span>Ne l’ayant point trouvé, ils retournèrent à Jérusalem pour le chercher.</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">46</span>Au bout de trois jours, ils le trouvèrent dans le temple, assis au milieu des docteurs, les écoutant et les interrogeant.</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">47</span>Et tous ceux qui l’entendaient étaient ravis de son intelligence et de ses réponses.</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">48</span>En le voyant, ils furent étonnés ; et sa mère lui dit : " Mon enfant, pourquoi avez-vous agi ainsi avec nous ? Votre père et moi, nous vous cherchions tout affligés. "</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">49</span>Et il leur répondit : " Pourquoi me cherchiez-vous ? Ne saviez-vous pas qu’il faut que je sois aux choses de mon Père ? "</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">50</span>Mais ils ne comprirent pas ce qu’il leur disait.</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">51</span>Alors il descendit avec eux, et vint à Nazareth, et il leur était soumis. Et sa mère conservait toutes ces choses dans son cœur.</div>
+            <div ev="Lc" chapter="2" trad="crampon" class="box"><span class="verset">52</span>Et Jésus progressait en sagesse, en taille et en grâce devant Dieu et devant les hommes. </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">41</span>Les parents de Jésus allaient chaque année à Jérusalem pour la fête de la Pâque. </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">42</span>Lorsqu'il eut 12 ans, ils y montèrent avec lui comme c’était la coutume pour cette fête. </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">43</span>Puis, quand la fête fut terminée, ils repartirent, mais l'enfant Jésus resta à Jérusalem sans que sa mère et Joseph s'en aperçoivent. </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">44</span>Croyant qu'il était avec leurs compagnons de voyage, ils firent une journée de chemin, tout en le cherchant parmi leurs parents et leurs connaissances. </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">45</span>Mais ils ne le trouvèrent pas et ils retournèrent à Jérusalem pour le chercher.</div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">46</span>Au bout de trois jours, ils le trouvèrent dans le temple, assis au milieu des maîtres; il les écoutait et les interrogeait. </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">47</span>Tous ceux qui l'entendaient étaient stupéfaits de son intelligence et de ses réponses. </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">48</span>Quand ses parents le virent, ils furent frappés d'étonnement, et sa mère lui dit: «Mon enfant, pourquoi as-tu agi ainsi avec nous? Ton père et moi, nous te cherchions avec angoisse.» </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">49</span>Il leur dit: «Pourquoi me cherchiez-vous? Ne saviez-vous pas qu'il faut que je m'occupe des affaires de mon Père?» </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">50</span>Mais ils ne comprirent pas ce qu'il leur disait. </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">51</span>Puis il descendit avec eux pour aller à Nazareth et il leur était soumis. Sa mère gardait précieusement toutes ces choses dans son cœur. </div>
+            <div ev="Lc" chapter="2" trad="S21" class="box"><span class="verset">52</span>Jésus grandissait en sagesse, en taille et en grâce devant Dieu et devant les hommes.  </div>
+        </div>
+    </div>
+    <div class="titre" id="jeanBaptiste">Jean Baptiste</div>
+    <div class="container">
+        <div id="Mt">
+            <p class="titreEv">Evangile selon Matthieu</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Mt" chapter="3" trad="crampon" class="box"><span class="verset">1</span>En ces jours-là parut Jean-Baptiste, prêchant dans le désert de Judée,</div>
+            <div ev="Mt" chapter="3" trad="crampon" class="box"><span class="verset">2</span>et disant : " Repentez-vous, car le royaume des cieux est proche. "</div>
+            <div ev="Mt" chapter="3" trad="crampon" class="box"><span class="verset">3</span>C’est lui qui a été annoncé par le prophète Isaïe, disant : " Une voix a retenti au désert : Préparez le chemin du Seigneur, aplanissez ses sentiers. "</div>
+            <div ev="Mt" chapter="3" trad="crampon" class="box"><span class="verset">4</span>Or Jean avait un vêtement de poils de chameau, et autour de ses reins une ceinture de cuir, et il se nourrissait de sauterelles et de miel sauvage.</div>
+            <div ev="Mt" chapter="3" trad="crampon" class="box"><span class="verset">5</span>Alors venaient à lui Jérusalem, et toute la Judée, et tout le pays qu’arrose le Jourdain.</div>
+            <div ev="Mt" chapter="3" trad="crampon" class="box"><span class="verset">6</span>Et, confessant leurs péchés, ils se faisaient baptiser par lui dans le Jourdain.</div>
+            <div ev="Mt" chapter="3" trad="crampon" class="box"><span class="verset">7</span>Voyant un grand nombre de Pharisiens et de Sadducéens venir à ce baptême il leur dit : " Race de vipères, qui vous a appris à fuir la colère qui vient ?</div>
+            <div ev="Mt" chapter="3" trad="crampon" class="box"><span class="verset">8</span>Faites donc de dignes fruits de repentir.</div>
+            <div ev="Mt" chapter="3" trad="crampon" class="box"><span class="verset">9</span>Et n’essayez pas de dire en vous-mêmes : Nous avons Abraham pour père ; car je vous dis que de ces pierres mêmes Dieu peut faire naître des enfants à Abraham.</div>
+            <div ev="Mt" chapter="3" trad="crampon" class="box"><span class="verset">10</span>Déjà la cognée est à la racine des arbres : tout arbre donc qui ne porte pas de bon fruit sera coupé et jeté au feu.</div>
+            <div ev="Mt" chapter="3" trad="crampon" class="box"><span class="verset">11</span>Moi, je vous baptise dans l’eau pour le repentir ; mais celui qui doit venir après moi est plus puissant que moi, et je ne suis pas digne de porter sa chaussure ; il vous baptisera dans l’Esprit-Saint et dans le feu.</div>
+            <div ev="Mt" chapter="3" trad="crampon" class="box"><span class="verset">12</span>Sa main tient le van ; il nettoiera son aire, il amassera son froment dans le grenier, et il brûlera la paille dans un feu qui ne s’éteint point. "</div>
+            <div ev="Mt" chapter="3" trad="S21" class="box"><span class="verset">1</span>A cette époque-là parut Jean-Baptiste, qui prêchait dans le désert de Judée. </div>
+            <div ev="Mt" chapter="3" trad="S21" class="box"><span class="verset">2</span>Il disait: «Changez d’attitude, car le royaume des cieux est proche.» </div>
+            <div ev="Mt" chapter="3" trad="S21" class="box"><span class="verset">3</span>Jean est celui que le prophète Esaïe avait annoncé lorsqu'il a dit: C'est la voix de celui qui crie dans le désert: ‘Préparez le chemin du Seigneur, rendez ses sentiers droits.’</div>
+            <div ev="Mt" chapter="3" trad="S21" class="box"><span class="verset">4</span>Jean portait un vêtement en poil de chameau et une ceinture de cuir autour de la taille. Il se nourrissait de sauterelles et de miel sauvage. </div>
+            <div ev="Mt" chapter="3" trad="S21" class="box"><span class="verset">5</span>Les habitants de Jérusalem, de toute la Judée et de toute la région du Jourdain se rendaient vers lui. </div>
+            <div ev="Mt" chapter="3" trad="S21" class="box"><span class="verset">6</span>Reconnaissant publiquement leurs péchés, ils se faisaient baptiser par lui dans les eaux du Jourdain.</div>
+            <div ev="Mt" chapter="3" trad="S21" class="box"><span class="verset">7</span>Cependant, quand il vit beaucoup de pharisiens et de sadducéens venir se faire baptiser par lui, il leur dit: «Races de vipères, qui vous a appris à fuir la colère à venir? </div>
+            <div ev="Mt" chapter="3" trad="S21" class="box"><span class="verset">8</span>Produisez donc du fruit qui confirme votre changement d’attitude </div>
+            <div ev="Mt" chapter="3" trad="S21" class="box"><span class="verset">9</span>et ne vous avisez pas de dire en vous-mêmes: ‘Nous avons Abraham pour ancêtre!’ En effet, je vous déclare que de ces pierres Dieu peut faire naître des descendants à Abraham. </div>
+            <div ev="Mt" chapter="3" trad="S21" class="box"><span class="verset">10</span>Déjà la hache est mise à la racine des arbres; tout arbre qui ne produit pas de bons fruits sera donc coupé et jeté au feu. </div>
+            <div ev="Mt" chapter="3" trad="S21" class="box"><span class="verset">11</span>Moi, je vous baptise d'eau en vue de la repentance, mais celui qui vient après moi est plus puissant que moi et je ne suis pas digne de porter ses sandales. Lui, il vous baptisera du Saint-Esprit et de feu. </div>
+            <div ev="Mt" chapter="3" trad="S21" class="box"><span class="verset">12</span>Il a sa pelle à la main; il nettoiera son aire de battage et il amassera son blé dans le grenier, mais il brûlera la paille dans un feu qui ne s'éteint pas.»</div>
+
+        </div>
+        <div id="Mc">
+            <p class="titreEv">Evangile selon Marc</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Mc" chapter="1" trad="crampon" class="box"><span class="verset">2</span>Selon ce qui est écrit dans le prophète Isaïe : " Voilà que j’envoie mon messager devant vous, pour vous frayer le chemin.</div>
+            <div ev="Mc" chapter="1" trad="crampon" class="box"><span class="verset">3</span>Une voix crie dans le désert : Préparez le chemin du Seigneur, aplanissez ses sentiers. "</div>
+            <div ev="Mc" chapter="1" trad="crampon" class="box"><span class="verset">4</span>Jean parut, baptisant dans le désert, et prêchant le baptême de pénitence pour la rémission des péchés.</div>
+            <div ev="Mc" chapter="1" trad="crampon" class="box"><span class="verset">5</span>Tout le pays de Judée et tous les habitants de Jérusalem venaient à lui, et, confessant leurs péchés, ils recevaient de lui le baptême dans le fleuve du Jourdain.</div>
+            <div ev="Mc" chapter="1" trad="crampon" class="box"><span class="verset">6</span>Or, Jean était vêtu de poils de chameau ; il avait autour de ses reins une ceinture de cuir, et se nourrissait de sauterelles et de miel sauvage. Et il prêchait ainsi :</div>
+            <div ev="Mc" chapter="1" trad="crampon" class="box"><span class="verset">7</span>" Il vient après moi, celui qui est plus puissant que moi, et je ne suis pas digne de délier, en me baissant, les cordons de sa chaussure.</div>
+            <div ev="Mc" chapter="1" trad="crampon" class="box"><span class="verset">8</span>Moi, je vous ai baptisés dans l’eau, mais lui vous baptisera dans le Saint-Esprit. "</div>
+            <div ev="Mc" chapter="1" trad="S21" class="box"><span class="verset">2</span>conformément à ce qui est écrit dans les prophètes: Voici, j'envoie mon messager devant toi pour te préparer le chemin. </div>
+            <div ev="Mc" chapter="1" trad="S21" class="box"><span class="verset">3</span>C'est la voix de celui qui crie dans le désert: ‘Préparez le chemin du Seigneur, rendez ses sentiers droits.’</div>
+            <div ev="Mc" chapter="1" trad="S21" class="box"><span class="verset">4</span>Jean parut; il baptisait dans le désert et prêchait le baptême de repentance pour le pardon des péchés. </div>
+            <div ev="Mc" chapter="1" trad="S21" class="box"><span class="verset">5</span>Toute la région de Judée et tous les habitants de Jérusalem se rendaient vers lui. Reconnaissant publiquement leurs péchés, ils se faisaient baptiser par lui dans l’eau du Jourdain.</div>
+            <div ev="Mc" chapter="1" trad="S21" class="box"><span class="verset">6</span>Jean portait un vêtement en poil de chameau et une ceinture de cuir autour de la taille. Il se nourrissait de sauterelles et de miel sauvage. </div>
+            <div ev="Mc" chapter="1" trad="S21" class="box"><span class="verset">7</span>Il proclamait: «Après moi vient celui qui est plus puissant que moi, et je ne suis pas digne de me baisser pour détacher la courroie de ses sandales. </div>
+            <div ev="Mc" chapter="1" trad="S21" class="box"><span class="verset">8</span>Moi, je vous ai baptisés d'eau; lui, il vous baptisera du Saint-Esprit.»</div>
+        </div>
+        <div id="Lc">
+            <p class="titreEv">Evangile selon Luc</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">1</span>La quinzième année du règne de Tibère César, Ponce Pilate étant gouverneur de la Judée ; Hérode, tétrarque de la Galilée ; Philippe, son frère, tétrarque de l’Iturée et du pays de la Trachonite, et Lysanias, tétrarque de l’Abilène ;</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">2</span>au temps des grands prêtres Anne et Caïphe, la parole du Seigneur se fit entendre à Jean, fils de Zacharie, dans le désert.</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">3</span>Et il vint dans toute la contrée du Jourdain, prêchant le baptême de pénitence pour la rémission des péchés,</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">4</span>ainsi qu’il est écrit au livre des oracles du prophète Isaïe : " Une voix a retenti au désert : Préparez le chemin du Seigneur, aplanissez ses sentiers.</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">5</span>Toute vallée sera comblée, toute montagne et toute colline seront abaissées ; les chemins tortueux deviendront droits, et les raboteux unis.</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">6</span>Et toute chair verra le salut de Dieu. "</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">7</span>Il disait à ceux qui accouraient en foule, pour être baptisés par lui : " Race de vipères, qui vous a appris à fuir la colère qui vient ?</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">8</span>Faites donc de dignes fruits de repentir, et n’essayez pas de dire en vous-mêmes : Abraham est notre père ; car je vous dis que de ces pierres mêmes Dieu peut susciter des enfants à Abraham.</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">9</span>Déjà la cognée est à la racine des arbres. Tout arbre donc qui ne porte pas de bon fruit sera coupé et jeté au feu. "</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">10</span>Et le peuple lui demanda : " Que faut-il donc faire ? "</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">11</span>Il leur répondit : " Que celui qui a deux tuniques en donne une à qui n’en a point, et que celui qui a de quoi manger fasse de même. "</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">12</span>Il vint aussi des publicains pour être baptisés, et ils lui dirent : " Maître, que devons-nous faire ? "</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">13</span>Il leur dit : " N’exigez rien au delà de ce qui vous est ordonné. "</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">14</span>Des gens de guerre l’interrogèrent aussi, disant : " Et nous, que devons-nous faire ? " Il leur répondit : " Abstenez-vous de toute violence et de toute fraude, et contentez-vous de votre solde. "</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">15</span>Comme le peuple était dans l’attente, et que tous se demandaient dans leurs cœurs, à l’égard de Jean, s’il ne serait pas le Christ,</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">16</span>Jean leur dit à tous : " Moi, je vous baptise dans l’eau ; mais il vient, celui qui est plus puissant que moi, et dont je ne suis pas digne de délier la courroie de la chaussure ; lui, il vous baptisera dans l’Esprit-Saint et le feu.</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">17</span>Sa main tient le van, et il nettoiera son aire, et il amassera le froment dans son grenier, et il brûlera la paille dans un feu qui ne s’éteint point. "</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">18</span>Par ces exhortations, et beaucoup d’autres semblables, il annonçait donc au peuple la bonne nouvelle.</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">19</span>Mais Hérode le tétrarque, étant repris par lui au sujet d’Hérodiade, femme de son frère, et de tout le mal qu’il avait fait,</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">20</span>il ajouta ce crime à tous les autres, et enferma Jean en prison.</div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">1</span>La quinzième année du règne de l'empereur Tibère, Ponce Pilate était gouverneur de la Judée, Hérode tétrarque de la Galilée, son frère Philippe tétrarque du territoire de l'Iturée et de la Trachonite, Lysanias tétrarque de l'Abilène, </div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">2</span>et Anne et Caïphe étaient grands-prêtres. C'est alors que la parole de Dieu fut adressée à Jean, fils de Zacharie, dans le désert, </div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">3</span>et Jean parcourut toute la région du Jourdain; il prêchait le baptême de repentance pour le pardon des péchés, </div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">4</span>conformément à ce qui est écrit dans le livre des paroles du prophète Esaïe: C'est la voix de celui qui crie dans le désert: ‘Préparez le chemin du Seigneur, rendez ses sentiers droits.’ </div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">5</span>Toute vallée sera comblée, toute montagne et toute colline seront abaissées; ce qui est tortueux sera redressé et les chemins rocailleux seront aplanis. </div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">6</span>Et tout homme verra le salut de Dieu.</div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">7</span>Il disait donc aux foules qui venaient se faire baptiser par lui: «Races de vipères, qui vous a appris à fuir la colère à venir? </div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">8</span>Produisez donc des fruits qui confirment votre changement d’attitude et ne vous mettez pas à dire en vous-mêmes: ‘Nous avons Abraham pour ancêtre!’ En effet, je vous déclare que de ces pierres Dieu peut faire naître des descendants à Abraham. </div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">9</span>Déjà la hache est mise à la racine des arbres: tout arbre qui ne produit pas de bons fruits sera donc coupé et jeté au feu.»</div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">10</span>La foule l'interrogeait: «Que devons-nous donc faire?» </div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">11</span>Il leur répondit: «Que celui qui a deux chemises partage avec celui qui n'en a pas, et que celui qui a de quoi manger fasse de même.» </div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">12</span>Des collecteurs d’impôts vinrent aussi pour se faire baptiser; ils lui dirent: «Maître, que devons-nous faire?» </div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">13</span>Il leur répondit: «N'exigez rien de plus que ce qui vous a été ordonné.» </div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">14</span>Des soldats aussi lui demandèrent: «Et nous, que devons-nous faire?» Il leur répondit: «Ne commettez ni extorsion ni tort envers personne et contentez-vous de votre solde.»</div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">15</span>Le peuple était dans l'attente et tous se demandaient en eux-mêmes si Jean n'était pas le Messie. </div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">16</span>Alors il leur dit: «Moi, je vous baptise d'eau; mais il vient, celui qui est plus puissant que moi, et je ne suis pas digne de détacher la courroie de ses sandales. Lui, il vous baptisera du Saint-Esprit et de feu. </div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">17</span>Il a sa pelle à la main; il nettoiera son aire de battage et il amassera le blé dans son grenier, mais il brûlera la paille dans un feu qui ne s'éteint pas.»</div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">18</span>C'est ainsi, avec encore beaucoup d’autres encouragements, que Jean annonçait la bonne nouvelle au peuple. </div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">19</span>Cependant, Hérode le tétrarque, à qui Jean faisait des reproches au sujet d'Hérodiade, la femme de son frère [Philippe], et de toutes les mauvaises actions qu'il avait commises, </div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">20</span>ajouta encore à toutes les autres celle d'enfermer Jean en prison.</div>
+        </div>
+        <div id="Jn">
+            <p class="titreEv">Evangile selon Jean</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">19</span>Et voici le témoignage que rendit Jean, lorsque les Juifs envoyèrent de Jérusalem des prêtres et des lévites pour lui demander : " Qui êtes-vous ? "</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">20</span>Il déclara, et ne le nia point ; il déclara : " Je ne suis point le Christ. "</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">21</span>Et ils lui demandèrent : " Quoi donc ! Etes-vous Elie ? " Il dit : " Je ne le suis point — Etes-vous le prophète ? " Il répondit : " Non. —</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">22</span>Qui êtes-vous donc, lui dirent-ils, afin que nous donnions une réponse à ceux qui nous ont envoyés. Que dites-vous de vous-même ? "</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">23</span>Il répondit : " Je suis la voix de celui qui crie dans le désert : Aplanissez le chemin du Seigneur, comme l’a dit le prophète Isaïe. "</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">24</span>Or ceux qu’on lui avait envoyés étaient des Pharisiens.</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">25</span>Et ils l’interrogèrent, et lui dirent : " Pourquoi donc baptisez-vous, si vous n’êtes ni le Christ, ni Elie, ni le Prophète ? "</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">26</span>Jean leur répondit : " Moi je baptise dans l’eau ; mais au milieu de vous il y a quelqu’un que vous ne connaissez pas,</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">27</span>c’est celui qui vient après moi ; je ne suis pas digne de délier la courroie de sa chaussure. "</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">28</span>Cela se passait à Béthanie, au delà du Jourdain, où Jean baptisait.</div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">19</span>Voici le témoignage de Jean lorsque les Juifs envoyèrent de Jérusalem des prêtres et des Lévites pour lui demander: «Toi, qui es-tu?» </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">20</span>Il déclara et sans restriction affirma: «Moi, je ne suis pas le Messie.»</div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">21</span>Ils lui demandèrent: «Qui es-tu donc? Es-tu Elie?» Et il dit: «Je ne le suis pas.» «Es-tu le prophète?» Et il répondit: «Non.» </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">22</span>Ils lui dirent alors: «Qui es-tu? Nous devons donner une réponse à ceux qui nous ont envoyés! Que dis-tu de toi-même?» </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">23</span>«Moi, dit-il, je suis la voix de celui qui crie dans le désert: ‘Rendez le chemin du Seigneur droit’, comme l’a dit le prophète Esaïe.» </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">24</span>Ceux qui avaient été envoyés étaient des pharisiens. </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">25</span>Ils lui posèrent encore cette question: «Pourquoi donc baptises-tu, si tu n'es ni le Messie, ni Elie, ni le prophète?» </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">26</span>Jean leur répondit: «Moi, je baptise d'eau, mais au milieu de vous se trouve quelqu'un que vous ne connaissez pas. </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">27</span>Il vient après moi [mais il m’a précédé,] et je ne suis pas digne de détacher la courroie de ses sandales.» </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">28</span>Cela se passait à Béthanie, de l'autre côté du Jourdain, où Jean baptisait.</div>
+        </div>
+    </div>
+    <div class="titre" id="bapteme">Baptême de Jésus</div>
+    <div class="container">
+        <div id="Mt">
+            <p class="titreEv">Evangile selon Matthieu</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Mt" chapter="3" trad="crampon" class="box"><span class="verset">13</span>Alors Jésus, venant de Galilée, alla trouver Jean au Jourdain pour être baptisé par lui.</div>
+            <div ev="Mt" chapter="3" trad="crampon" class="box"><span class="verset">14</span>Jean s’en défendait en disant : " C’est moi qui doit être baptisé par vous, et vous venez à moi ! "</div>
+            <div ev="Mt" chapter="3" trad="crampon" class="box"><span class="verset">15</span>Jésus lui répondit : " Laisse faire maintenant, car il convient que nous accomplissions ainsi toute justice. " Alors Jean le laissa faire.</div>
+            <div ev="Mt" chapter="3" trad="crampon" class="box"><span class="verset">16</span>Jésus ayant été baptisé sortit aussitôt de l’eau, et voilà que les cieux lui furent ouverts, et il vit l’Esprit de Dieu descendre comme une colombe et venir sur lui.</div>
+            <div ev="Mt" chapter="3" trad="crampon" class="box"><span class="verset">17</span>Et du ciel une voix disait : " Celui-ci est mon Fils bien-aimé, en qui j’ai mis mes complaisances. "</div>
+            <div ev="Mt" chapter="3" trad="S21" class="box"><span class="verset">13</span>Alors Jésus vint de la Galilée jusqu’au Jourdain vers Jean, pour être baptisé par lui, </div>
+            <div ev="Mt" chapter="3" trad="S21" class="box"><span class="verset">14</span>mais Jean s'y opposait en disant: «C'est moi qui ai besoin d'être baptisé par toi, et c'est toi qui viens vers moi?» </div>
+            <div ev="Mt" chapter="3" trad="S21" class="box"><span class="verset">15</span>Jésus lui répondit: «Laisse faire maintenant, car il est convenable que nous accomplissions ainsi tout ce qui est juste», et Jean ne lui résista plus. </div>
+            <div ev="Mt" chapter="3" trad="S21" class="box"><span class="verset">16</span>Dès qu’il fut baptisé, Jésus sortit de l'eau. Alors le ciel s’ouvrit [pour lui] et il vit l'Esprit de Dieu descendre comme une colombe et venir sur lui. </div>
+            <div ev="Mt" chapter="3" trad="S21" class="box"><span class="verset">17</span>Au même instant, une voix fit entendre du ciel ces paroles: «Celui-ci est mon Fils bien-aimé, qui a toute mon approbation.»</div>
+
+        </div>
+        <div id="Mc">
+            <p class="titreEv">Evangile selon Marc</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Mc" chapter="1" trad="crampon" class="box"><span class="verset">9</span>Or, il arriva en ces jours-là que Jésus vint de Nazareth, ville de Galilée, et il fut baptisé par Jean dans le Jourdain.</div>
+            <div ev="Mc" chapter="1" trad="crampon" class="box"><span class="verset">10</span>Et, comme il sortait de l’eau, il vit les cieux s’ouvrir et l’Esprit-Saint descendre sur lui comme une colombe.</div>
+            <div ev="Mc" chapter="1" trad="crampon" class="box"><span class="verset">11</span>Et du ciel une voix se fit entendre : " Tu es mon Fils bien-aimé, en toi j’ai mis mes complaisances. "</div>
+            <div ev="Mc" chapter="1" trad="S21" class="box"><span class="verset">9</span>A cette époque-là, Jésus vint de Nazareth en Galilée, et il fut baptisé par Jean dans le Jourdain. </div>
+            <div ev="Mc" chapter="1" trad="S21" class="box"><span class="verset">10</span>Au moment où il sortait de l'eau, il vit le ciel s'ouvrir et l'Esprit descendre sur lui comme une colombe, </div>
+            <div ev="Mc" chapter="1" trad="S21" class="box"><span class="verset">11</span>et une voix se fit entendre du ciel: «Tu es mon Fils bien-aimé, tu as toute mon approbation.»</div>
+        </div>
+        <div id="Lc">
+            <p class="titreEv">Evangile selon Luc</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">21</span>Or, dans le temps que tout le peuple venait de recevoir le baptême, Jésus fut aussi baptisé, et pendant qu’il priait, le ciel s’ouvrit,</div>
+            <div ev="Lc" chapter="3" trad="crampon" class="box"><span class="verset">22</span>et l’Esprit-Saint descendit sur lui sous une forme corporelle, comme une colombe, et du ciel une voix se fit entendre, disant : " Tu es mon Fils bien-aimé ; en toi j’ai mes complaisances. "</div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">21</span>Comme tout le peuple était baptisé, Jésus aussi fut baptisé. Pendant qu'il priait, le ciel s'ouvrit </div>
+            <div ev="Lc" chapter="3" trad="S21" class="box"><span class="verset">22</span>et le Saint-Esprit descendit sur lui sous une forme corporelle, comme une colombe. Et une voix fit entendre du ciel ces paroles: «Tu es mon Fils bien-aimé, tu as toute mon approbation.»</div>
+        </div>
+        <div id="Jn">
+            <p class="titreEv">Evangile selon Jean</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">29</span>Le lendemain, Jean vit Jésus qui venait vers lui, et il dit : " Voici l’agneau de Dieu, voici celui qui ôte le péché du monde.</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">30</span>C’est de lui que j’ai dit : un homme vient après moi, qui est passé devant moi, parce qu’il était avant moi.</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">31</span>Et moi, je ne le connaissais pas, mais c’est afin qu’il fût manifesté à Israël, que je suis venu baptiser dans l’eau. "</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">32</span>Et Jean rendit témoignage en disant : " J’ai vu l’Esprit descendre du ciel comme une colombe, et il s’est reposé sur lui.</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">33</span>Et moi, je ne le connaissais pas ; mais celui qui m’a envoyé baptiser dans l’eau m’a dit : Celui sur qui tu verras l’Esprit descendre et se reposer, c’est lui qui baptise dans l’Esprit-Saint.</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">34</span>Et moi j’ai vu et j’ai rendu témoignage que celui-là est le Fils de Dieu. "</div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">29</span>Le lendemain, il vit Jésus s’approcher de lui et dit: «Voici l'Agneau de Dieu qui enlève le péché du monde. </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">30</span>C'est celui à propos duquel j'ai dit: ‘Après moi vient un homme qui m'a précédé, car il existait avant moi.’ </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">31</span>Pour ma part, je ne le connaissais pas, mais c'est afin de le faire connaître à Israël que je suis venu baptiser d'eau.» </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">32</span>Jean rendit aussi ce témoignage: «J'ai vu l'Esprit descendre du ciel comme une colombe et s'arrêter sur lui. </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">33</span>Je ne le connaissais pas, mais celui qui m'a envoyé baptiser d'eau m'a dit: ‘Celui sur qui tu verras l'Esprit descendre et s'arrêter, c'est lui qui baptise du Saint-Esprit.’ </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">34</span>Et moi, j'ai vu et j'atteste qu'il est le Fils de Dieu.»</div>
+        </div>
+    </div>
+    <div class="titre" id="tentation">Jésus tenté dans le désert</div>
+    <div class="container">
+        <div id="Mt">
+            <p class="titreEv">Evangile selon Matthieu</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Mt" chapter="4" trad="crampon" class="box"><span class="verset">1</span>Alors Jésus fut conduit par l’Esprit dans le désert pour y être tenté par le diable.</div>
+            <div ev="Mt" chapter="4" trad="crampon" class="box"><span class="verset">2</span>Après avoir jeûné pendant quarante jours et quarante nuits, il eut faim.</div>
+            <div ev="Mt" chapter="4" trad="crampon" class="box"><span class="verset">3</span>Et le tentateur, s’approchant, lui dit : " Si vous êtes le Fils de Dieu, commandez que ces pierres deviennent des pains. "</div>
+            <div ev="Mt" chapter="4" trad="crampon" class="box"><span class="verset">4</span>Jésus lui répondit : " Il est écrit : L’homme ne vit pas seulement de pain, mais de toute parole qui sort de la bouche de Dieu. "</div>
+            <div ev="Mt" chapter="4" trad="crampon" class="box"><span class="verset">5</span>Alors le diable le transporta dans la ville sainte, et l’ayant posé sur le pinacle du temple,</div>
+            <div ev="Mt" chapter="4" trad="crampon" class="box"><span class="verset">6</span>il lui dit : " Si vous êtes le Fils de Dieu, jetez-vous en bas ; car il est écrit : Il a donné pour vous des ordres à ses anges, et ils vous porteront dans leurs mains, de peur que votre pied ne heurte contre la pierre. "</div>
+            <div ev="Mt" chapter="4" trad="crampon" class="box"><span class="verset">7</span>Jésus lui dit : " Il est écrit aussi : Tu ne tenteras point le Seigneur, ton Dieu. "</div>
+            <div ev="Mt" chapter="4" trad="crampon" class="box"><span class="verset">8</span>Le diable, de nouveau, le transporta sur une montagne très élevée, et lui montrant tous les royaumes du monde, avec leur gloire,</div>
+            <div ev="Mt" chapter="4" trad="crampon" class="box"><span class="verset">9</span>il lui dit : " Je vous donnerai tout cela, si, tombant à mes pieds, vous m’adorez ".</div>
+            <div ev="Mt" chapter="4" trad="crampon" class="box"><span class="verset">10</span>Alors Jésus lui dit : " Retire-toi, Satan ; car il est écrit : Tu adoreras le Seigneur, ton Dieu, et tu ne serviras que lui seul. "</div>
+            <div ev="Mt" chapter="4" trad="crampon" class="box"><span class="verset">11</span>Alors le diable le laissa ; aussitôt des anges s’approchèrent, et ils le servaient.</div>
+            <div ev="Mt" chapter="4" trad="S21" class="box"><span class="verset">1</span>Puis Jésus fut emmené par l'Esprit dans le désert pour être tenté par le diable. </div>
+            <div ev="Mt" chapter="4" trad="S21" class="box"><span class="verset">2</span>Après avoir jeûné </div>
+            <div ev="Mt" chapter="4" trad="S21" class="box"><span class="verset">40</span>jours et </div>
+            <div ev="Mt" chapter="4" trad="S21" class="box"><span class="verset">40</span>nuits, il eut faim. </div>
+            <div ev="Mt" chapter="4" trad="S21" class="box"><span class="verset">3</span>Le tentateur s'approcha et lui dit: «Si tu es le Fils de Dieu, ordonne que ces pierres deviennent des pains.» </div>
+            <div ev="Mt" chapter="4" trad="S21" class="box"><span class="verset">4</span>Jésus répondit: «Il est écrit: L'homme ne vivra pas de pain seulement, mais de toute parole qui sort de la bouche de Dieu.»</div>
+            <div ev="Mt" chapter="4" trad="S21" class="box"><span class="verset">5</span>Le diable le transporta alors dans la ville sainte, le plaça au sommet du temple </div>
+            <div ev="Mt" chapter="4" trad="S21" class="box"><span class="verset">6</span>et lui dit: «Si tu es le Fils de Dieu, jette-toi en bas! En effet, il est écrit: Il donnera des ordres à ses anges à ton sujet et ils te porteront sur les mains, de peur que ton pied ne heurte une pierre.» </div>
+            <div ev="Mt" chapter="4" trad="S21" class="box"><span class="verset">7</span>Jésus lui dit: «Il est aussi écrit: Tu ne provoqueras pas le Seigneur, ton Dieu.»</div>
+            <div ev="Mt" chapter="4" trad="S21" class="box"><span class="verset">8</span>Le diable le transporta encore sur une montagne très élevée, lui montra tous les royaumes du monde et leur gloire </div>
+            <div ev="Mt" chapter="4" trad="S21" class="box"><span class="verset">9</span>et lui dit: «Je te donnerai tout cela, si tu te prosternes pour m'adorer.» </div>
+            <div ev="Mt" chapter="4" trad="S21" class="box"><span class="verset">10</span>Jésus lui dit alors: «Retire-toi, Satan! En effet, il est écrit: C’est le Seigneur, ton Dieu, que tu adoreras et c’est lui seul que tu serviras.» </div>
+            <div ev="Mt" chapter="4" trad="S21" class="box"><span class="verset">11</span>Alors le diable le laissa. Et voici que des anges s'approchèrent de Jésus et le servirent.</div>
+        </div>
+        <div id="Mc">
+            <p class="titreEv">Evangile selon Marc</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Mc" chapter="1" trad="crampon" class="box"><span class="verset">12</span>Et aussitôt L’Esprit poussa Jésus au désert.</div>
+            <div ev="Mc" chapter="1" trad="crampon" class="box"><span class="verset">13</span>Et il y demeura quarante jours, tenté par Satan ; il était parmi les bêtes sauvages, et les anges le servaient.</div>
+            <div ev="Mc" chapter="1" trad="S21" class="box"><span class="verset">12</span>Aussitôt, l'Esprit poussa Jésus dans le désert </div>
+            <div ev="Mc" chapter="1" trad="S21" class="box"><span class="verset">13</span>où il passa 40 jours, tenté par Satan. Il était avec les bêtes sauvages et les anges le servaient.</div>
+        </div>
+        <div id="Lc">
+            <p class="titreEv">Evangile selon Luc</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Lc" chapter="4" trad="crampon" class="box"><span class="verset">1</span>Jésus, rempli de l’Esprit-Saint, revint du Jourdain, et il fut poussé par l’Esprit dans le désert,</div>
+            <div ev="Lc" chapter="4" trad="crampon" class="box"><span class="verset">2</span>pendant quarante jours, en butte aux tentations du diable. Il ne mangea rien durant ces jours-là, et quand ils furent passés, il eut faim.</div>
+            <div ev="Lc" chapter="4" trad="crampon" class="box"><span class="verset">3</span>Alors le diable lui dit : " Si vous êtes Fils de Dieu, commandez à cette pierre de se changer en pain. "</div>
+            <div ev="Lc" chapter="4" trad="crampon" class="box"><span class="verset">4</span>Jésus lui répondit : " Il est écrit : L’homme ne vit pas seulement de pain, mais de toute parole de Dieu. "</div>
+            <div ev="Lc" chapter="4" trad="crampon" class="box"><span class="verset">5</span>Et le diable l’ayant emmené sur une haute montagne, lui montra en un instant tous les royaumes de la terre,</div>
+            <div ev="Lc" chapter="4" trad="crampon" class="box"><span class="verset">6</span>et lui dit : " Je vous donnerai toute cette puissance et toute la gloire de ces royaumes ; car elle m’a été livrée, et je la donne à qui je veux.</div>
+            <div ev="Lc" chapter="4" trad="crampon" class="box"><span class="verset">7</span>Si donc vous vous prosternez devant moi, elle sera toute à vous. "</div>
+            <div ev="Lc" chapter="4" trad="crampon" class="box"><span class="verset">8</span>Jésus lui répondit : " Il est écrit : Tu adoreras le Seigneur ton Dieu, et tu le serviras lui seul. "</div>
+            <div ev="Lc" chapter="4" trad="crampon" class="box"><span class="verset">9</span>Le démon le conduisit encore à Jérusalem, et l’ayant placé sur le pinacle du temple, il lui dit : " Si vous êtes Fils de Dieu, jetez-vous d’ici en bas.</div>
+            <div ev="Lc" chapter="4" trad="crampon" class="box"><span class="verset">10</span>Car il est écrit : Il a été donné pour vous l’ordre à ses anges de vous garder,</div>
+            <div ev="Lc" chapter="4" trad="crampon" class="box"><span class="verset">11</span>et ils vous prendront entre leurs mains, de peur que votre pied ne heurte contre la pierre. "</div>
+            <div ev="Lc" chapter="4" trad="crampon" class="box"><span class="verset">12</span>Jésus lui répondit : " Il a été écrit : Tu ne tenteras point le Seigneur ton Dieu. "</div>
+            <div ev="Lc" chapter="4" trad="crampon" class="box"><span class="verset">13</span>Après l’avoir ainsi tenté de toutes manières, le diable se retira de lui pour un temps.</div>
+            <div ev="Lc" chapter="4" trad="S21" class="box"><span class="verset">1</span>ésus, rempli du Saint-Esprit, revint du Jourdain. Il fut conduit par l'Esprit dans le désert </div>
+            <div ev="Lc" chapter="4" trad="S21" class="box"><span class="verset">2</span>où il fut tenté par le diable pendant 40 jours. Il ne mangea rien durant ces jours-là et, quand cette période fut passée, il eut faim. </div>
+            <div ev="Lc" chapter="4" trad="S21" class="box"><span class="verset">3</span>Le diable lui dit: «Si tu es le Fils de Dieu, ordonne à cette pierre de devenir du pain.» </div>
+            <div ev="Lc" chapter="4" trad="S21" class="box"><span class="verset">4</span>Jésus lui répondit: «Il est écrit: L'homme ne vivra pas de pain seulement [mais de toute parole de Dieu].»</div>
+            <div ev="Lc" chapter="4" trad="S21" class="box"><span class="verset">5</span>Le diable l'emmena plus haut, [sur une haute montagne,] et lui montra en un instant tous les royaumes de la terre. </div>
+            <div ev="Lc" chapter="4" trad="S21" class="box"><span class="verset">6</span>Puis il lui dit: «Je te donnerai toute cette puissance et la gloire de ces royaumes, car elle m'a été donnée et je la donne à qui je veux. </div>
+            <div ev="Lc" chapter="4" trad="S21" class="box"><span class="verset">7</span>Si donc tu te prosternes devant moi, elle sera toute à toi.» </div>
+            <div ev="Lc" chapter="4" trad="S21" class="box"><span class="verset">8</span>Jésus lui répondit: «[Retire-toi, Satan! En effet,] il est écrit: C’est le Seigneur, ton Dieu, que tu adoreras et c’est lui seul que tu serviras.»</div>
+            <div ev="Lc" chapter="4" trad="S21" class="box"><span class="verset">9</span>Le diable le conduisit encore à Jérusalem, le plaça au sommet du temple et lui dit: «Si tu es le Fils de Dieu, jette-toi d'ici en bas, car il est écrit: </div>
+            <div ev="Lc" chapter="4" trad="S21" class="box"><span class="verset">10</span>Il donnera, à ton sujet, ordre à ses anges de te garder </div>
+            <div ev="Lc" chapter="4" trad="S21" class="box"><span class="verset">11</span>et: Ils te porteront sur les mains, de peur que ton pied ne heurte une pierre.» </div>
+            <div ev="Lc" chapter="4" trad="S21" class="box"><span class="verset">12</span>Jésus lui répondit: «Il est dit: Tu ne provoqueras pas le Seigneur, ton Dieu.»</div>
+            <div ev="Lc" chapter="4" trad="S21" class="box"><span class="verset">13</span>Après l'avoir tenté de toutes ces manières, le diable s'éloigna de lui jusqu'à un moment favorable.</div>
+        </div>
+    </div>
+    <div class="titre" id="galilee">Débuts en Galilée</div>
+    <div class="container">
+        <div id="Mt">
+            <p class="titreEv">Evangile selon Matthieu</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Mt" chapter="4" trad="crampon" class="box"><span class="verset">12</span>Quand Jésus eut appris que Jean avait été mis en prison, il se retira en Galilée.</div>
+            <div ev="Mt" chapter="4" trad="crampon" class="box"><span class="verset">13</span>Et laissant la ville de Nazareth, il vint demeurer à Capharnaüm, sur les bords de la mer, aux confins de Zabulon et de Nephtali,</div>
+            <div ev="Mt" chapter="4" trad="crampon" class="box"><span class="verset">14</span>afin que s’accomplît cette parole du prophète Isaïe :</div>
+            <div ev="Mt" chapter="4" trad="crampon" class="box"><span class="verset">15</span>" Terre de Zabulon et terre de Nephtali, qui confines à la mer, pays au-delà du Jourdain, Galilée des Gentils !</div>
+            <div ev="Mt" chapter="4" trad="crampon" class="box"><span class="verset">16</span>Le peuple qui était assis dans les ténèbres a vu une grande lumière ; et sur ceux qui étaient assis dans la région de l’ombre de la mort, la lumière s’est levée !</div>
+            <div ev="Mt" chapter="4" trad="crampon" class="box"><span class="verset">17</span>Dès lors Jésus commença à prêcher, en disant : " Repentez-vous, car le royaume des cieux est proche. "</div>
+            <div ev="Mt" chapter="4" trad="S21" class="box"><span class="verset">12</span>Lorsqu'il apprit que Jean avait été arrêté, Jésus se retira en Galilée. </div>
+            <div ev="Mt" chapter="4" trad="S21" class="box"><span class="verset">13</span>Il quitta Nazareth et vint habiter à Capernaüm, ville située près du lac, dans le territoire de Zabulon et de Nephthali, </div>
+            <div ev="Mt" chapter="4" trad="S21" class="box"><span class="verset">14</span>afin que s'accomplisse ce qu'avait annoncé le prophète Esaïe: </div>
+            <div ev="Mt" chapter="4" trad="S21" class="box"><span class="verset">15</span>Territoire de Zabulon et de Nephthali, route de la mer, région située de l'autre côté du Jourdain, Galilée à la population étrangère! </div>
+            <div ev="Mt" chapter="4" trad="S21" class="box"><span class="verset">16</span>Le peuple assis dans les ténèbres a vu une grande lumière, et sur ceux qui se trouvaient dans le pays de l’ombre de la mort une lumière s'est levée.</div>
+            <div ev="Mt" chapter="4" trad="S21" class="box"><span class="verset">17</span>Dès ce moment, Jésus commença à prêcher et à dire: «Changez d’attitude, car le royaume des cieux est proche.»</div>
+        </div>
+        <div id="Mc">
+            <p class="titreEv">Evangile selon Marc</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Mc" chapter="1" trad="crampon" class="box"><span class="verset">14</span>Après que Jean eut été mis en prison, Jésus vint en Galilée, prêchant l’Évangile du royaume de Dieu.</div>
+            <div ev="Mc" chapter="1" trad="crampon" class="box"><span class="verset">15</span>Il disait : " Le temps est accompli, et le royaume de Dieu est proche ; repentez-vous et croyez à l’Évangile. "</div>
+            <div ev="Mc" chapter="1" trad="S21" class="box"><span class="verset">14</span>Après que Jean eut été arrêté, Jésus alla en Galilée. Il proclamait la bonne nouvelle [du royaume] de Dieu </div>
+            <div ev="Mc" chapter="1" trad="S21" class="box"><span class="verset">15</span>et disait: «Le moment est arrivé et le royaume de Dieu est proche. Changez d’attitude et croyez à la bonne nouvelle!»</div>
+        </div>
+    </div>
+    <div class="titre" id="premiersDisciples">Premiers disciples</div>
+    <div class="container">
+        <div id="Mt">
+            <p class="titreEv">Evangile selon Matthieu</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Mt" chapter="4" trad="crampon" class="box"><span class="verset">18</span>Comme il marchait le long de la mer de Galilée, Jésus vit deux frères, Simon, appelé Pierre, et André son frère, qui jetaient leur filet dans la mer ; car ils étaient pêcheurs.</div>
+            <div ev="Mt" chapter="4" trad="crampon" class="box"><span class="verset">19</span>Et il leur dit : " Suivez-moi, et je vous ferai pêcheurs d’hommes. "</div>
+            <div ev="Mt" chapter="4" trad="crampon" class="box"><span class="verset">20</span>Eux aussitôt, laissant leurs filets, le suivirent.</div>
+            <div ev="Mt" chapter="4" trad="crampon" class="box"><span class="verset">21</span>S’avançant plus loin, il vit deux autres frères, Jacques, fils de Zébédée, et Jean son frère, dans une barque, avec leur père Zébédée, réparant leurs filets, et il les appela.</div>
+            <div ev="Mt" chapter="4" trad="crampon" class="box"><span class="verset">22</span>Eux aussi, laissant à l’heure même leur barque et leur père, le suivirent. </div>
+            <div ev="Mt" chapter="4" trad="S21" class="box"><span class="verset">18</span>Comme il marchait le long du lac de Galilée, il vit deux frères, Simon, appelé Pierre, et son frère André, qui jetaient un filet dans le lac; c’étaient en effet des pêcheurs. </div>
+            <div ev="Mt" chapter="4" trad="S21" class="box"><span class="verset">19</span>Il leur dit: «Suivez-moi et je ferai de vous des pêcheurs d'hommes.» </div>
+            <div ev="Mt" chapter="4" trad="S21" class="box"><span class="verset">20</span>Aussitôt, ils laissèrent les filets et le suivirent. </div>
+            <div ev="Mt" chapter="4" trad="S21" class="box"><span class="verset">21</span>Il alla plus loin et vit deux autres frères, Jacques, fils de Zébédée, et son frère Jean, qui étaient dans une barque avec leur père Zébédée et qui réparaient leurs filets. Il les appela, </div>
+            <div ev="Mt" chapter="4" trad="S21" class="box"><span class="verset">22</span>et aussitôt ils laissèrent la barque et leur père et le suivirent.</div>
+        </div>
+        <div id="Mc">
+            <p class="titreEv">Evangile selon Marc</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Mc" chapter="1" trad="crampon" class="box"><span class="verset">16</span>Passant le long de la mer de Galilée, il vit Simon et André son frère qui jetaient leurs filets dans la mer, car ils étaient pêcheurs.</div>
+            <div ev="Mc" chapter="1" trad="crampon" class="box"><span class="verset">17</span>Jésus leur dit : " Venez à ma suite, et je vous ferai devenir pêcheurs d’hommes. "</div>
+            <div ev="Mc" chapter="1" trad="crampon" class="box"><span class="verset">18</span>Aussitôt, laissant leurs filets, ils le suivirent.</div>
+            <div ev="Mc" chapter="1" trad="crampon" class="box"><span class="verset">19</span>Un peu plus loin, il vit Jacques, fils de Zébédée, et Jean son frère, qui étaient, eux aussi, dans une barque, réparant leurs filets.</div>
+            <div ev="Mc" chapter="1" trad="crampon" class="box"><span class="verset">20</span>Il les appela aussitôt ; et, laissant leur père Zébédée dans la barque avec les mercenaires, ils le suivirent. </div>
+            <div ev="Mc" chapter="1" trad="S21" class="box"><span class="verset">16</span>Comme il marchait le long du lac de Galilée, il vit Simon et André, frère de Simon, qui jetaient un filet dans le lac; c’étaient en effet des pêcheurs. </div>
+            <div ev="Mc" chapter="1" trad="S21" class="box"><span class="verset">17</span>Jésus leur dit: «Suivez-moi, et je ferai de vous des pêcheurs d'hommes.» </div>
+            <div ev="Mc" chapter="1" trad="S21" class="box"><span class="verset">18</span>Aussitôt, ils laissèrent leurs filets et le suivirent. </div>
+            <div ev="Mc" chapter="1" trad="S21" class="box"><span class="verset">19</span>Il alla un peu plus loin et vit Jacques, fils de Zébédée, et son frère Jean, qui étaient eux aussi dans une barque et réparaient les filets. </div>
+            <div ev="Mc" chapter="1" trad="S21" class="box"><span class="verset">20</span>Aussitôt, il les appela; ils laissèrent leur père Zébédée dans la barque avec les ouvriers et le suivirent.</div>
+        </div>
+        <div id="Jn">
+            <p class="titreEv">Evangile selon Jean</p>
+            <div trad="S21" indicationS21="trad">Segond 21</div>
+            <div trad="crampon" indicationCrampon="trad">Crampon</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">35</span>Le lendemain, Jean se trouvait encore là, avec deux de ses disciples.</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">36</span>Et ayant regardé Jésus qui passait, il dit : " Voici l’Agneau de Dieu. "</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">37</span>Les deux disciples l’entendirent parler, et ils suivirent Jésus.</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">38</span>Jésus s’étant retourné, et voyant qu’ils le suivaient, leur dit : " Que cherchez-vous ? " Ils lui répondirent : " Rabbi (ce qui signifie Maître), où demeurez-vous ? "</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">39</span>Il leur dit : " Venez et vous verrez. " Ils allèrent, et virent où il demeurait, et ils restèrent auprès de lui ce jour-là. Or, c’était environ la dixième heure.</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">40</span>Or, André, le frère de Simon-Pierre, était l’un des deux qui avaient entendu la parole de Jean, et qui avaient suivi Jésus.</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">41</span>Il rencontra d’abord son frère Simon, et lui dit : " Nous avons trouvé le Messie (ce qui se traduit Christ). "</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">42</span>Et il l’amena à Jésus. Jésus, l’ayant regardé dit : " Toi, tu es Simon, fils de Jean ; tu seras appelé Céphas (ce qui se traduit Pierre). "</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">43</span>Le jour suivant, Jésus résolut d’aller en Galilée. Et il rencontra Philippe. Et Jésus lui dit : " Suis-moi. "</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">44</span>Philippe était de Bethsaïde, la ville d’André et de Pierre.</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">45</span>Philippe rencontra Nathanaël et lui dit : " Nous avons trouvé celui dont Moïse a écrit dans la Loi, ainsi que les Prophètes : c’est Jésus, fils de Joseph de Nazareth. "</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">46</span>Nathanaël lui répondit : " Peut-il sortir de Nazareth quelque chose de bon ? " Philippe lui dit : " Viens et vois. "</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">47</span>Jésus vit venir vers lui Nathanaël, et dit en parlant de lui : " Voici vraiment un Israélite, en qui il n’y a nul artifice. "</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">48</span>Nathanaël lui dit : " D’où me connaissez-vous ? " Jésus repartit et lui dit : " Avant que Philippe t’appelât, lorsque tu étais sous le figuier, je t’ai vu. "</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">49</span>Nathanaël lui répondit : " Rabbi, vous êtes le Fils de Dieu, vous êtes le Roi d’Israël. "</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">50</span>Jésus lui repartit : " Parce que je t’ai dit : Je t’ai vu sous le figuier, tu crois ! Tu verras de plus grandes choses que celle-là. "</div>
+            <div ev="Jn" chapter="1" trad="crampon" class="box"><span class="verset">51</span>Et il ajouta : " En vérité, en vérité, je vous le dis, vous verrez désormais le ciel ouvert, et les anges de Dieu montant et descendant sur le Fils de l’homme. " </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">35</span>Le lendemain, Jean était encore là avec deux de ses disciples. </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">36</span>Il vit Jésus passer et dit: «Voici l'Agneau de Dieu.» </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">37</span>Les deux disciples l'entendirent prononcer ces paroles et suivirent Jésus. </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">38</span>Jésus se retourna et, voyant qu'ils le suivaient, il leur dit: «Que cherchez-vous?» Ils lui répondirent: «Rabbi – ce qui signifie maître –, où habites-tu?» </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">39</span>«Venez, leur dit-il, et voyez.» Ils y allèrent [donc], virent où il habitait et restèrent avec lui ce jour-là. C'était environ quatre heures de l'après-midi.</div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">40</span>André, le frère de Simon Pierre, était l'un des deux qui avaient entendu les paroles de Jean et qui avaient suivi Jésus. </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">41</span>Il rencontra d'abord son frère Simon et lui dit: «Nous avons trouvé le Messie», ce qui correspond à Christ. </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">42</span>Il le conduisit vers Jésus. Jésus le regarda et dit: «Tu es Simon, fils de Jonas, tu seras appelé Céphas», ce qui signifie Pierre.</div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">43</span>Le lendemain, Jésus décida de se rendre en Galilée. Il rencontra Philippe et lui dit: «Suis-moi.» </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">44</span>Philippe était de Bethsaïda, la ville d'André et de Pierre.</div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">45</span>Philippe rencontra Nathanaël et lui dit: «Nous avons trouvé celui que Moïse a décrit dans la loi et dont les prophètes ont parlé: Jésus de Nazareth, fils de Joseph.» </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">46</span>Nathanaël lui dit: «Peut-il sortir quelque chose de bon de Nazareth?» Philippe lui répondit: «Viens et vois.» </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">47</span>Jésus vit Nathanaël s'approcher de lui et dit de lui: «Voici vraiment un Israélite en qui il n'y a pas de ruse.» </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">48</span>«D'où me connais-tu?» lui dit Nathanaël. Jésus lui répondit: «Avant que Philippe t'appelle, quand tu étais sous le figuier, je t'ai vu.» </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">49</span>Nathanaël répondit: «Maître, tu es le Fils de Dieu, tu es le roi d'Israël.» </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">50</span>Jésus lui répondit: «Parce que je t'ai dit que je t'ai vu sous le figuier, tu crois? Tu verras de plus grandes choses que celles-ci.» </div>
+            <div ev="Jn" chapter="1" trad="S21" class="box"><span class="verset">51</span>Il ajouta: «En vérité, en vérité, je vous le dis, vous verrez [désormais] le ciel ouvert et les anges de Dieu monter et descendre au-dessus du Fils de l'homme.»</div>
+        </div>
+    </div>
+    <div class="intro">Références des icônes utilisées :</div>
+    <a target="_blank" href="https://icons8.com/icon/5149/holy-bible">Holy Bible icon by Icons8</a>
+    <br>
+    <a target="_blank" href="https://icons8.com/icon/772/timeline">Timeline icon by Icons8</a>
+    <script src="script.js"></script>
+</body>
+</html>

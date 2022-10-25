@@ -1,0 +1,150 @@
+/* couleur de fond de la page */
+body{
+  background-color: rgb(252,252,252);
+}
+
+/* style au texte introductif */
+.intro{
+  font-family: Arial;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;;
+}
+
+/* appliquer du css aux numéros de versets pour qu'ils apparaissent en exposant */
+.verset {
+  font-size: 70%;
+  vertical-align: top;
+  margin-right: 3px;/* marge à droite pour qu'il y ait un espace avec le verset */
+} 
+
+
+/* style pour les versets*/
+div[ev]{
+  font-family: Arial;
+  font-size: 15px;
+  margin: 7px; /* marge car sinon les textes sont trop proches les uns des autres */
+  display: block;
+}
+
+/* ajout de couleurs de fond selon évangile */
+#Mt{
+  background-color: lavender;
+  border: 1px solid lightgrey;
+  position: relative;
+}
+#Mc{
+  background-color: aliceblue;
+  border: 1px solid lightgrey;
+  position: relative;
+}
+#Lc{
+  background-color: floralwhite;
+  border: 1px solid lightgrey;
+  position: relative;
+}
+#Jn{
+  background-color: lavenderblush;
+  border: 1px solid lightgrey;
+  position: relative; /* la position relative sera utile pour positionner les indications de traduction relativement aux grid */
+}
+
+/* style aux titres des évangiles*/
+.titreEv{
+  font-family: Gill Sans;
+  font-size: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+
+/* style aux titre des passages */
+.titre{
+  font-family:Gill Sans;
+  font-size: 23px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline 2px;
+  margin: 10px;
+  color: darkslategray;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+
+/* ajout de grid CSS pour que les textes apparaissent côte à côte */
+.container{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: max-content;
+  margin-right: 35px; /* cette marge permet de faire de la place pour la barre de menu pour que celle-ci ne se superpose pas à la grid */
+}
+
+
+/* Barre de menu */
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0; /* positionnée en haut à droite*/
+}
+
+/* css pour les boutons du menu */
+.menu button {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+  background-color: white;
+  border: solid 1px lightgrey;
+}
+
+
+/* Menu de chronologie */
+#menuChronologie{
+  display: none; /* caché pour l'instant : fonction css qui le fera apparaître */
+  text-align: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+  background-color: white;
+  border: solid 1px lightgrey;
+  position: fixed;
+  top: 90px; /* afin qu'il apparaisse juste en dessous du menu principal */
+  right: 0;
+  width: 250px;
+  z-index: 1; /* nécessaire car la position relative des extraits fait qu'ils apparaissent en dessus du menu */
+}
+
+/* style sur les éléments du menu chronologique pour qu'ils n'apparaissent pas trop comme des liens visuellement */
+div > a{
+  font-family: Arial;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+/* Cacher la version S21 et afficher la version crampon */
+div[trad=S21]{
+  display: none;
+}
+div[trad=crampon]{
+  display: block;
+}
+
+/* style à l'indication de traduction pour que cela soit dans le coin supérieur droit de la cell */
+div[indicationCrampon]{
+  color: darkgray;
+  top: 1px;
+  right: 5px;
+  position: absolute; /* position absolute permet de placer en rapport à l'objet dont la position est relative */
+  font-size: 15px;
+  cursor: pointer;
+}
+div[indicationS21]{
+  color: darkgray;
+  top: 1px;
+  right: 5px;
+  position: absolute;
+  font-size: 15px;
+  cursor: pointer;
+}
