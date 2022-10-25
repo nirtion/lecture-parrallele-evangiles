@@ -41,3 +41,5 @@ Deux icônes ont été récupérées sur le site icons8.com et sont l’objet d�
 La traduction Second 21 des évangiles a été récupérée sur le site Bible Gateaway https://www.biblegateway.com/.
 
 La traduction Crampon a été récusée sur le site de Wikisource. https://fr.wikisource.org/wiki/Bible_Crampon_1923.
+
+Les éléments HTML et CSS nécessaires à la création de la barre de menu verticale avec icônes a été basée sur le tutoriel de création de la "sticky social bar" par w3schools. https://www.w3schools.com/howto/howto_css_sticky_social_bar.asp 
